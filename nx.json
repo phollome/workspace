@@ -12,8 +12,19 @@
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
+      }
     }
   },
-  "projects": { "react-hooks": { "tags": ["scope:public"] } }
+  "projects": {
+    "react-hooks": { "tags": ["scope:public"] },
+    "react-components": { "tags": ["scope:public"] }
+  }
 }

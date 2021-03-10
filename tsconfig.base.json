@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@phollome/react-hooks": ["libs/react-hooks/src/index.ts"]
+      "@phollome/react-hooks": ["libs/react-hooks/src/index.ts"],
+      "@phollome/react-components": ["libs/react-components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
