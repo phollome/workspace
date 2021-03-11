@@ -25,6 +25,7 @@
   },
   "projects": {
     "react-hooks": { "tags": ["scope:public"] },
-    "react-components": { "tags": ["scope:public"] }
+    "react-components": { "tags": [] },
+    "tailwind-styles": { "tags": [] }
   }
 }

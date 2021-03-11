@@ -83,14 +83,6 @@
             "passWithNoTests": true
           }
         },
-        "build-tailwind-css": {
-          "executor": "@nrwl/workspace:run-commands",
-          "outputs": [],
-          "options": {
-            "command": "node ../../node_modules/.bin/postcss src/tailwind.css -o src/styles.css",
-            "cwd": "libs/react-components"
-          }
-        },
         "storybook": {
           "executor": "@nrwl/storybook:storybook",
           "options": {
@@ -109,6 +101,21 @@
             "config": { "configFolder": "libs/react-components/.storybook" }
           },
           "configurations": { "ci": { "quiet": true } }
+        }
+      }
+    },
+    "tailwind-styles": {
+      "root": "libs/tailwind-styles",
+      "sourceRoot": "libs/tailwind-styles",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "builder": "@nrwl/workspace:run-commands",
+          "outputs": [],
+          "options": {
+            "command": "npx tailwindcss-cli@latest build ./tailwind.css -o styles.css",
+            "cwd": "libs/tailwind-styles"
+          }
         }
       }
     }
