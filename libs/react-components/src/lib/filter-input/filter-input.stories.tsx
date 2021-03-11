@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import FilterInput, { FilterInputProps } from "./FilterInput";
+import FilterInput, { FilterInputProps } from "./filter-input";
 
 export default {
   component: FilterInput,

@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import user from "@testing-library/user-event";
 
-import FilterInput, { Id } from "./FilterInput";
+import FilterInput, { Id } from "./filter-input";
 
 test("focus on click", () => {
   const filterString = "filter";

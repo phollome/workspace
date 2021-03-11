@@ -1,1 +1,1 @@
-export { default as FilterInput } from "./lib/FilterInput";
+export * from "./lib/filter-input/filter-input";
