@@ -116,6 +116,14 @@
             "command": "npx tailwindcss-cli@latest build ./tailwind.css -o styles.css",
             "cwd": "libs/tailwind-styles"
           }
+        },
+        "build-production": {
+          "builder": "@nrwl/workspace:run-commands",
+          "outputs": [],
+          "options": {
+            "command": "NODE_ENV=production npx tailwindcss-cli@latest build ./tailwind.css -o styles.css",
+            "cwd": "libs/tailwind-styles"
+          }
         }
       }
     }
