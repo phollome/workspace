@@ -1,7 +1,15 @@
 {
   "version": 2,
-  "cli": { "defaultCollection": "@nrwl/react" },
-  "generators": { "@nrwl/react": { "application": { "babel": true } } },
+  "cli": {
+    "defaultCollection": "@nrwl/react"
+  },
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
+    }
+  },
   "projects": {
     "react-hooks": {
       "root": "libs/react-hooks",
@@ -88,9 +96,15 @@
           "options": {
             "uiFramework": "@storybook/react",
             "port": 4400,
-            "config": { "configFolder": "libs/react-components/.storybook" }
+            "config": {
+              "configFolder": "libs/react-components/.storybook"
+            }
           },
-          "configurations": { "ci": { "quiet": true } }
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
         },
         "build-storybook": {
           "executor": "@nrwl/storybook:build",
@@ -98,9 +112,15 @@
           "options": {
             "uiFramework": "@storybook/react",
             "outputPath": "dist/storybook/react-components",
-            "config": { "configFolder": "libs/react-components/.storybook" }
+            "config": {
+              "configFolder": "libs/react-components/.storybook"
+            }
           },
-          "configurations": { "ci": { "quiet": true } }
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
         }
       }
     },
@@ -110,7 +130,7 @@
       "projectType": "library",
       "targets": {
         "build": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "outputs": [],
           "options": {
             "command": "npx tailwindcss-cli@latest build ./tailwind.css -o styles.css",
@@ -118,7 +138,7 @@
           }
         },
         "build-production": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "outputs": [],
           "options": {
             "command": "NODE_ENV=production npx tailwindcss-cli@latest build ./tailwind.css -o styles.css",
