@@ -2,7 +2,10 @@ import React from "react";
 
 export interface FilterInputProps {
   children: React.ReactNode;
-  placeholder?: string;
+  inputProps: React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  >;
 }
 
 export const Id = "filter-input";
@@ -42,9 +45,10 @@ function FilterInput(props: FilterInputProps) {
           ref={inputRef}
           className="w-full p-2 border-2 rounded focus:border-gray-400 focus:outline-none"
           onChange={onChange}
-          placeholder={props.placeholder}
+          placeholder="Press ⌘K or ^K"
           aria-placeholder="Press Command K or Control K to filter"
           autoComplete="off"
+          {...props.inputProps}
         />
       </label>
       {elements}
@@ -54,7 +58,7 @@ function FilterInput(props: FilterInputProps) {
 
 FilterInput.defaultProps = {
   children: [],
-  placeholder: "Press ⌘K or ^K",
+  inputProps: {},
 };
 
 export default FilterInput;

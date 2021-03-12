@@ -27,10 +27,10 @@ test("focus on click", () => {
   expect(testChild.textContent).toBe(filterValue);
 });
 
-test("custom placeholder", () => {
+test("custom placeholder (inputProps example)", () => {
   const placeholder = "placeholder";
 
-  render(<FilterInput placeholder={placeholder} />);
+  render(<FilterInput inputProps={{ placeholder }} />);
 
   const filterInput = screen.getByTestId(Id) as HTMLInputElement;
 
