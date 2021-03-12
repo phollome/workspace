@@ -27,4 +27,14 @@ test("focus on click", () => {
   expect(testChild.textContent).toBe(filterValue);
 });
 
+test("custom placeholder", () => {
+  const placeholder = "placeholder";
+
+  render(<FilterInput placeholder={placeholder} />);
+
+  const filterInput = screen.getByTestId(Id) as HTMLInputElement;
+
+  expect(filterInput.placeholder).toBe(placeholder);
+});
+
 // TODO: test focus on shortcut
