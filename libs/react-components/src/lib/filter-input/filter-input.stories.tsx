@@ -8,9 +8,14 @@ export default {
 };
 
 export const primary = () => {
-  const props: FilterInputProps = {
-    onChange: action("onChange"),
+  const TestChild = (props) => {
+    return (
+      <p className="mt-2 text-xs font-mono">filterValue: {props.filterValue}</p>
+    );
   };
-
-  return <FilterInput onChange={props.onChange} />;
+  return (
+    <FilterInput>
+      <TestChild />
+    </FilterInput>
+  );
 };

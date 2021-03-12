@@ -5,16 +5,26 @@ import user from "@testing-library/user-event";
 import FilterInput, { Id } from "./filter-input";
 
 test("focus on click", () => {
-  const filterString = "filter";
-  const onChange = jest.fn();
+  const filterValue = "filter";
 
-  render(<FilterInput onChange={onChange} />);
+  const TestChild = (props) => {
+    return <p data-testid="test-child">{props.filterValue}</p>;
+  };
 
-  const element = screen.queryByTestId(Id) as HTMLInputElement;
-  user.type(element, filterString);
+  render(
+    <FilterInput>
+      <TestChild />
+    </FilterInput>
+  );
 
-  expect(element.value).toBe(filterString);
-  expect(onChange).toHaveBeenCalledTimes(filterString.length);
+  const filterInput = screen.getByTestId(Id) as HTMLInputElement;
+  const testChild = screen.getByTestId("test-child");
+
+  expect(testChild.textContent).toBe("");
+
+  user.type(filterInput, filterValue);
+
+  expect(testChild.textContent).toBe(filterValue);
 });
 
 // TODO: test focus on shortcut

@@ -1,13 +1,14 @@
 import React from "react";
 
 export interface FilterInputProps {
-  onChange: React.ChangeEventHandler;
+  children: React.ReactNode;
 }
 
 export const Id = "filter-input";
 
 function FilterInput(props: FilterInputProps) {
   const inputRef = React.useRef<HTMLInputElement | null>(null);
+  const [value, setValue] = React.useState<string>();
 
   React.useEffect(() => {
     window.addEventListener("keydown", (evt) => {
@@ -19,20 +20,39 @@ function FilterInput(props: FilterInputProps) {
     });
   }, []);
 
+  const onChange = (evt) => {
+    setValue(evt.target.value);
+  };
+  React.isValidElement(props.children);
+  const elements = React.isValidElement(props.children)
+    ? React.Children.toArray(props.children).map((child) =>
+        React.cloneElement(child as React.ReactElement, {
+          filterValue: value,
+        })
+      )
+    : [];
+
   return (
-    <label htmlFor={Id}>
-      <input
-        id={Id}
-        data-testid={Id}
-        ref={inputRef}
-        className="w-full p-2 border-2 rounded focus:border-gray-400 focus:outline-none"
-        onChange={props.onChange}
-        placeholder="Press ⌘K or ^K to filter"
-        aria-placeholder="Press Command K or Control K to filter"
-        autoComplete="off"
-      />
-    </label>
+    <>
+      <label htmlFor={Id}>
+        <input
+          id={Id}
+          data-testid={Id}
+          ref={inputRef}
+          className="w-full p-2 border-2 rounded focus:border-gray-400 focus:outline-none"
+          onChange={onChange}
+          placeholder="Press ⌘K or ^K to filter"
+          aria-placeholder="Press Command K or Control K to filter"
+          autoComplete="off"
+        />
+      </label>
+      {elements}
+    </>
   );
 }
+
+FilterInput.defaultProps = {
+  children: [],
+};
 
 export default FilterInput;
