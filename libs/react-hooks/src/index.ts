@@ -1,1 +1,1 @@
-export { default as useDarkMode } from "./lib/useDarkMode";
+export * from "./lib/use-dark-mode/use-dark-mode";

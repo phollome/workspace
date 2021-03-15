@@ -1,5 +1,5 @@
 import { renderHook, act } from "@testing-library/react-hooks";
-import useDarkMode, { LocalStorageItemKey } from "../useDarkMode";
+import useDarkMode, { LocalStorageItemKey } from "./use-dark-mode";
 
 test("toggle dark mode", () => {
   const setItemSpy = jest.spyOn(window.localStorage.__proto__, "setItem");
