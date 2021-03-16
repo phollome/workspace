@@ -1,11 +1,15 @@
 import React from "react";
 import classnames from "classnames";
-import { useDarkMode } from "@phollome/react-hooks";
 
 export const Id = "dark-mode-switch";
 
-export function DarkModeSwitch() {
-  const { isDarkMode, toggleDarkMode } = useDarkMode();
+export interface DarkModeSwitch {
+  isDarkMode: boolean;
+  onChange?: React.ChangeEventHandler;
+}
+
+export function DarkModeSwitch(props: DarkModeSwitch) {
+  const { isDarkMode, onChange } = props;
 
   const darkIconClassNames = classnames(
     "block mx-1 select-none",
@@ -27,7 +31,7 @@ export function DarkModeSwitch() {
           data-testid={Id}
           type="checkbox"
           className="w-0 h-0"
-          onChange={toggleDarkMode}
+          onChange={onChange}
           checked={isDarkMode}
           aria-checked={isDarkMode}
         />

@@ -6,11 +6,13 @@ export default {
   title: "Components/DarkModeSwitch",
 };
 
-export const primary = () => {
-  return (
-    <div className="p-4 flex justify-center dark:bg-black">
-      <DarkModeSwitch />
-    </div>
-  );
+export const Primary = () => {
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
+
+  const handleChange = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
+  return <DarkModeSwitch isDarkMode={isDarkMode} onChange={handleChange} />;
 };
-primary.parameters = { controls: { hideNoControlsWarning: true } };
+Primary.parameters = { controls: { hideNoControlsWarning: true } };
