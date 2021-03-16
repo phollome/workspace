@@ -4,7 +4,7 @@ export const Selector = "body";
 export const ClassName = "dark";
 export const LocalStorageItemKey = "darkModeEnabled";
 
-function useDarkMode() {
+export function useDarkMode() {
   const [isDarkMode, setIsDarkMode] = React.useState<boolean>(false);
 
   React.useEffect(() => {
