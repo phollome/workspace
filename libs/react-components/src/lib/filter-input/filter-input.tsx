@@ -43,7 +43,7 @@ function FilterInput(props: FilterInputProps) {
           id={Id}
           data-testid={Id}
           ref={inputRef}
-          className="w-full p-2 border-2 rounded focus:border-gray-400 focus:outline-none"
+          className="w-full p-2 bg-white dark:bg-gray-800 text-black dark:text-white border-gray-200 dark:border-gray-600  border-2 rounded focus:border-gray-400 focus:outline-none"
           onChange={onChange}
           placeholder="Press ⌘K or ^K"
           aria-placeholder="Press Command K or Control K to filter"
