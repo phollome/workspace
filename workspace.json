@@ -3,10 +3,20 @@
   "cli": {
     "defaultCollection": "@nrwl/react"
   },
+  "defaultProject": "wfa-list-of-literature",
   "generators": {
     "@nrwl/react": {
       "application": {
+        "style": "css",
+        "linter": "eslint",
         "babel": true
+      },
+      "component": {
+        "style": "css"
+      },
+      "library": {
+        "style": "css",
+        "linter": "eslint"
       }
     }
   },
@@ -143,6 +153,82 @@
           "options": {
             "command": "NODE_ENV=production npx tailwindcss-cli@latest build ./tailwind.css -o styles.css",
             "cwd": "libs/tailwind-styles"
+          }
+        }
+      }
+    },
+    "wfa-list-of-literature": {
+      "root": "apps/wfa-list-of-literature",
+      "sourceRoot": "apps/wfa-list-of-literature/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/wfa-list-of-literature",
+            "index": "apps/wfa-list-of-literature/src/index.html",
+            "main": "apps/wfa-list-of-literature/src/main.tsx",
+            "polyfills": "apps/wfa-list-of-literature/src/polyfills.ts",
+            "tsConfig": "apps/wfa-list-of-literature/tsconfig.app.json",
+            "assets": [
+              "apps/wfa-list-of-literature/src/favicon.ico",
+              "apps/wfa-list-of-literature/src/assets"
+            ],
+            "styles": ["apps/wfa-list-of-literature/src/styles.css"],
+            "scripts": [],
+            "webpackConfig": "@nrwl/react/plugins/webpack"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/wfa-list-of-literature/src/environments/environment.ts",
+                  "with": "apps/wfa-list-of-literature/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/web:dev-server",
+          "options": {
+            "buildTarget": "wfa-list-of-literature:build"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "wfa-list-of-literature:build:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/wfa-list-of-literature/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/wfa-list-of-literature"],
+          "options": {
+            "jestConfig": "apps/wfa-list-of-literature/jest.config.js",
+            "passWithNoTests": true
           }
         }
       }
