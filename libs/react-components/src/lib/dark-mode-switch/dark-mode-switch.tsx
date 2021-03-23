@@ -5,12 +5,12 @@ import "./dark-mode-switch.css";
 
 export const Label = "dark mode switch";
 
-export interface DarkModeSwitch {
+export interface DarkModeSwitchProps {
   isDarkMode: boolean;
   onChange: React.ChangeEventHandler;
 }
 
-export function DarkModeSwitch(props: DarkModeSwitch) {
+export function DarkModeSwitch(props: DarkModeSwitchProps) {
   const { isDarkMode, onChange } = props;
 
   return (
