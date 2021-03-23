@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import user from "@testing-library/user-event";
 import { useDarkMode } from "@phollome/react-hooks";
 
-import DarkModeSwitch, { Id } from "./dark-mode-switch";
+import DarkModeSwitch, { Label } from "./dark-mode-switch";
 
 test("switch dark mode using hook", () => {
   const Wrapper = () => {
@@ -13,7 +13,7 @@ test("switch dark mode using hook", () => {
 
   render(<Wrapper />);
 
-  const darkModeSwitch = screen.getByTestId(Id);
+  const darkModeSwitch = screen.getByLabelText(Label);
 
   expect(document.body.classList).not.toContain("dark");
 
@@ -37,7 +37,7 @@ test("switch dark mode using props", () => {
 
   render(<Wrapper />);
 
-  const darkModeSwitch = screen.getByTestId(Id);
+  const darkModeSwitch = screen.getByLabelText(Label);
   const testContainer = screen.getByTestId("test-container");
 
   expect(testContainer.classList).not.toContain("dark");

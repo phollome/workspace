@@ -7,7 +7,7 @@ export default {
 };
 
 export const Primary = () => {
-  const [isDarkMode, setIsDarkMode] = React.useState(false);
+  const [isDarkMode, setIsDarkMode] = React.useState<boolean>(false);
 
   const handleChange = () => {
     setIsDarkMode(!isDarkMode);
