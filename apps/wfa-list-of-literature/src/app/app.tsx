@@ -1,5 +1,5 @@
 import React from "react";
-import { DarkModeSwitch } from "@phollome/react-components";
+import { DarkModeSwitch, FilterInput } from "@phollome/react-components";
 import { useDarkMode } from "@phollome/react-hooks";
 
 export function App() {
@@ -24,6 +24,14 @@ export function App() {
           </h1>
           <h2 className="text-xl">Literaturverzeichnis</h2>
         </header>
+        <main className="m-2">
+          <FilterInput
+            inputProps={{
+              placeholder: "Drücke ⌘ + K oder ^ + K",
+              "aria-label": "Drücke Command + K oder Steuerung + K",
+            }}
+          ></FilterInput>
+        </main>
       </div>
     </div>
   );
