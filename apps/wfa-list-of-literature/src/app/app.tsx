@@ -1,6 +1,7 @@
 import React from "react";
 import { DarkModeSwitch, FilterInput } from "@phollome/react-components";
 import { useDarkMode } from "@phollome/react-hooks";
+import Table, { TableProps } from "./table/table";
 
 export function App() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
@@ -30,7 +31,9 @@ export function App() {
               placeholder: "Drücke ⌘ + K oder ^ + K",
               "aria-label": "Drücke Command + K oder Steuerung + K",
             }}
-          ></FilterInput>
+          >
+            <Table {...({} as TableProps)} />
+          </FilterInput>
         </main>
       </div>
     </div>
