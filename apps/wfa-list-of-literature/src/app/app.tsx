@@ -29,8 +29,8 @@ export function App() {
         <main className="m-2">
           <FilterInput
             inputProps={{
-              placeholder: "Drücke ⌘ + K oder ^ + K",
-              "aria-label": "Drücke Command + K oder Steuerung + K",
+              placeholder: "🔎  Drücke ⌘ + K oder ^ + K",
+              "aria-label": "Drücke Command + K oder Steuerung + K zum filtern",
             }}
           >
             <Table {...({} as TableProps)} />
