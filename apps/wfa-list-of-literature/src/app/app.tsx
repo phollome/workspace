@@ -2,6 +2,7 @@ import React from "react";
 import { DarkModeSwitch, FilterInput } from "@phollome/react-components";
 import { useDarkMode } from "@phollome/react-hooks";
 import Table, { TableProps } from "./table/table";
+import data from "../assets/data.json";
 
 export function App() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
@@ -15,12 +16,12 @@ export function App() {
           </div>
           <h1 className="text-4xl font-bold">
             <a
-              href="https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured"
+              href={data.link}
               target="_blank"
               rel="noopener noreferrer"
               className="underline focus:outline-none hover:text-blue-800 focus:text-blue-800 dark:hover:text-blue-400 dark:focus:text-blue-400"
             >
-              Wohlstand für Alle
+              {data.title}
             </a>
           </h1>
           <h2 className="text-xl">Literaturverzeichnis</h2>
