@@ -93,6 +93,16 @@ export function App() {
             <Table {...({ references } as TableProps)} />
           </FilterInput>
         </main>
+        <footer className="py-2 text-center">
+          <a
+            href="https://songsforthe.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline focus:outline-none hover:text-blue-800 focus:text-blue-800 dark:hover:text-blue-400 dark:focus:text-blue-400"
+          >
+            Impressum
+          </a>
+        </footer>
       </div>
     </div>
   );
