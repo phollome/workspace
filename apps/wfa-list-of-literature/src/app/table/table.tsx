@@ -1,4 +1,5 @@
 import React from "react";
+import { EnhancedReference } from "../app";
 
 enum Sorting {
   Ascending,
@@ -55,8 +56,47 @@ function ColumnHead(props: ColumnHeadProps) {
   );
 }
 
+interface Column {
+  key: string;
+  content: string;
+}
+
+interface TableRowProps {
+  rowIndex: number;
+  columns: Column[];
+  reference: EnhancedReference;
+}
+
+function TableRow(props: TableRowProps) {
+  return (
+    <tr className="border odd:bg-gray-100 dark:odd:bg-gray-800 dark:border-gray-600">
+      {props.columns.map((column, i) => {
+        const hasLink =
+          column.key === "episodeTitle" && props.reference.episodeLink;
+        return (
+          <td key={`${props.rowIndex}-${i}`} className="p-2">
+            {hasLink ? (
+              <a
+                href={props.reference.episodeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline focus:outline-none hover:text-blue-800 focus:text-blue-800 dark:hover:text-blue-400 dark:focus:text-blue-400 inline-block"
+              >
+                {props.reference.episodeTitle}
+              </a>
+            ) : (
+              props.reference[column.key]
+            )}
+          </td>
+        );
+      })}
+    </tr>
+  );
+}
+
 export interface TableProps {
   filterValue: string;
+  references?: EnhancedReference[];
 }
 
 export function Table(props: TableProps) {
@@ -71,7 +111,7 @@ export function Table(props: TableProps) {
     { key: "title", content: "Titel" },
     { key: "publisher", content: "Verlage/Quelle" },
     { key: "episodeTitle", content: "Episodetitel" },
-  ];
+  ] as Column[];
 
   const handleColumnHeadClick = (event) => {
     const { key } = columns.find(
@@ -104,6 +144,16 @@ export function Table(props: TableProps) {
         </tr>
       </thead>
       <tbody>
+        {props.references.map((reference, index) => {
+          return (
+            <TableRow
+              key={`${index}`}
+              rowIndex={index}
+              reference={reference}
+              columns={columns}
+            />
+          );
+        })}
         <tr>
           <td>{props.filterValue}</td>
         </tr>
@@ -111,5 +161,9 @@ export function Table(props: TableProps) {
     </table>
   );
 }
+
+Table.defaultProps = {
+  references: [],
+};
 
 export default Table;

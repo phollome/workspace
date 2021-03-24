@@ -4,8 +4,65 @@ import { useDarkMode } from "@phollome/react-hooks";
 import Table, { TableProps } from "./table/table";
 import data from "../assets/data.json";
 
+interface Reference {
+  author: string;
+  title: string;
+  item: string;
+  publisher: string;
+}
+
+interface Episode {
+  id: number;
+  title: string;
+  pubDate: string;
+  href: string;
+  description: string;
+  references: Reference[];
+}
+
+interface Data {
+  title: string;
+  link: string;
+  episodes: Episode[];
+}
+
+export interface EnhancedReference {
+  episodeId: number;
+  episodeTitle: string;
+  episodePubDate: Date;
+  episodeLink: string;
+  author: string;
+  title: string;
+  publisher: string;
+}
+
+function useReferences(data: Data) {
+  const { title, link, episodes } = data;
+  const [references, setReferences] = React.useState<EnhancedReference[]>();
+
+  React.useEffect(() => {
+    const collectedReferences = episodes.reduce((array, episode) => {
+      const enhancedReferences = episode.references.map((reference) => {
+        return {
+          episodeId: episode.id,
+          episodeTitle: episode.title,
+          episodePubDate: episode.pubDate,
+          episodeLink: episode.href,
+          ...reference,
+        };
+      });
+      return array.concat(enhancedReferences);
+    }, []);
+    setReferences(collectedReferences);
+  }, [title, link, episodes]);
+
+  return references;
+}
+
 export function App() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
+
+  const references = useReferences(data);
 
   return (
     <div className="min-w-min min-h-screen bg-white dark:bg-gray-900">
@@ -33,7 +90,7 @@ export function App() {
               "aria-label": "Drücke Command + K oder Steuerung + K zum filtern",
             }}
           >
-            <Table {...({} as TableProps)} />
+            <Table {...({ references } as TableProps)} />
           </FilterInput>
         </main>
       </div>

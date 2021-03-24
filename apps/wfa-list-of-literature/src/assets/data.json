@@ -1,5 +1,21 @@
 {
   "title": "Wohlstand für Alle",
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
-  "episodes": []
+  "episodes": [
+    {
+      "id": 1,
+      "title": "Wie Geld per Knopfdruck entsteht - WOHLSTAND FÜR ALLE Ep. 01",
+      "pubDate": "2019-09-13T17:10:09Z",
+      "href": "https://www.youtube.com/watch?v=imFRuYSAUS8",
+      "description": "Wie selbstverständlich zahlen wir mit unserer Kreditkarte oder leihen uns bei der Bank #Geld. Doch selten denken wir daran, dass dadurch Geld aus dem Nichts produziert wird. Genauer gesagt: per Knopfdruck. Die Macht der #Zentralbanken ist enorm, darüber wird oft diskutiert, vergessen wird dabei aber, dass die Privatbanken in der Lage sind, #Giralgeld bzw. \nBuchgeld herzustellen. Wie entsteht dieses Geld genau? Hat dieses Geld einen wirklichen Wert? Und ist diese Art der Geldvermehrung überhaupt demokratisch? In der ersten Folge von \"Wohlstand für Alle\" widmen sich Ole und Wolfgang diesen Fragen. Mehr dazu im Video!\n\nLiteratur:\nAaron Sahr: Keystroke-Kapitalismus. Ungleichheit auf Knopfdruck. Hamburger Edition/bpb.\n\nIhr könnt uns unterstützen - herzlichen Dank!\nPaypal: https://www.paypal.me/oleundwolfgang\n\nWolfgang M. Schmitt, Ole Nymoen\nBetreff: Wohlstand fuer Alle \nIBAN: DE67 5745 0120 0130 7996 12\nBIC: MALADE51NWD\n\nIhr könnt uns auch als Podcast hören:\nPodigee: https://wohlstandfueralle.podigee.io\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?l=de\n\nTwitter: \nOle: twitter.com/nymoen_ole \nWolfgang: twitter.com/SchmittJunior",
+      "references": [
+        {
+          "author": "Aaron Sahr",
+          "title": "Keystroke-Kapitalismus. Ungleichheit auf Knopfdruck",
+          "item": "Aaron Sahr: Keystroke-Kapitalismus. Ungleichheit auf Knopfdruck. Hamburger Edition/bpb.",
+          "publisher": "Hamburger Edition/bpb"
+        }
+      ]
+    }
+  ]
 }
