@@ -1,4 +1,5 @@
 import React from "react";
+import Fuse from "fuse.js";
 import { EnhancedReference } from "../app";
 
 enum Sorting {
@@ -94,24 +95,75 @@ function TableRow(props: TableRowProps) {
   );
 }
 
+const columns = [
+  {
+    key: "author",
+    content: "Autor:innen",
+  },
+  { key: "title", content: "Titel" },
+  { key: "publisher", content: "Verlage/Quelle" },
+  { key: "episodeTitle", content: "Episodetitel" },
+] as Column[];
+
 export interface TableProps {
   filterValue: string;
   references?: EnhancedReference[];
 }
 
 export function Table(props: TableProps) {
+  const { references, filterValue } = props;
   const [selectedColumn, setSelectedColumn] = React.useState<string>();
   const [sorting, setSorting] = React.useState<Sorting>();
+  const [filteredReferences, setFilteredReferences] = React.useState<
+    EnhancedReference[]
+  >([]);
+  const [sortedReferences, setSortedReferences] = React.useState<
+    EnhancedReference[]
+  >([]);
+  const fuse = React.useRef(null);
 
-  const columns = [
-    {
-      key: "author",
-      content: "Autor:innen",
-    },
-    { key: "title", content: "Titel" },
-    { key: "publisher", content: "Verlage/Quelle" },
-    { key: "episodeTitle", content: "Episodetitel" },
-  ] as Column[];
+  React.useEffect(() => {
+    if (references.length > 0) {
+      fuse.current = new Fuse(references, {
+        keys: columns.map((column) => column.key),
+        minMatchCharLength: 2,
+      });
+    }
+  }, [references]);
+
+  React.useEffect(() => {
+    if (
+      filterValue.length > 2 &&
+      fuse.current !== null &&
+      references.length > 0
+    ) {
+      const result = fuse.current.search(filterValue);
+      const items = result.map((element) => element.item);
+      setFilteredReferences([...items]);
+    } else if (filteredReferences.length !== references.length) {
+      setFilteredReferences([...references]);
+    }
+  }, [filterValue, references]); // eslint-disable-line
+
+  React.useEffect(() => {
+    if (sorting === Sorting.Default) {
+      setSortedReferences([...filteredReferences]);
+    } else {
+      const sortedItems = [...filteredReferences].sort((a, b) => {
+        const aContent = a[selectedColumn];
+        const bContent = b[selectedColumn];
+        switch (sorting) {
+          case Sorting.Descending:
+            return aContent.localeCompare(bContent);
+          case Sorting.Ascending:
+            return bContent.localeCompare(aContent);
+          default:
+            return 0;
+        }
+      });
+      setSortedReferences(sortedItems);
+    }
+  }, [sorting, filteredReferences, selectedColumn]);
 
   const handleColumnHeadClick = (event) => {
     const { key } = columns.find(
@@ -144,7 +196,7 @@ export function Table(props: TableProps) {
         </tr>
       </thead>
       <tbody>
-        {props.references.map((reference, index) => {
+        {sortedReferences.map((reference, index) => {
           return (
             <TableRow
               key={`${index}`}
@@ -154,15 +206,13 @@ export function Table(props: TableProps) {
             />
           );
         })}
-        <tr>
-          <td>{props.filterValue}</td>
-        </tr>
       </tbody>
     </table>
   );
 }
 
 Table.defaultProps = {
+  filterValue: "",
   references: [],
 };
 
