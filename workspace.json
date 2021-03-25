@@ -175,7 +175,7 @@
               "apps/wfa-list-of-literature/src/favicon.ico",
               "apps/wfa-list-of-literature/src/assets"
             ],
-            "styles": ["apps/wfa-list-of-literature/src/styles.css"],
+            "styles": [],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
