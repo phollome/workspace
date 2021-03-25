@@ -2,7 +2,7 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 
 module.exports = {
-  onInit: async (props) => {
+  onPreBuild: async (props) => {
     const { utils } = props;
     const project = process.env.PROJECT_NAME;
     const lastDeploy = process.env.CACHED_COMMIT_REF;
