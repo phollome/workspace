@@ -34,6 +34,7 @@ export interface EnhancedReference {
   author: string;
   title: string;
   publisher: string;
+  href?: string;
 }
 
 function useReferences(data: Data) {

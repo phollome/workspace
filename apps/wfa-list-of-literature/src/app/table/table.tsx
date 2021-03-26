@@ -72,18 +72,23 @@ function TableRow(props: TableRowProps) {
   return (
     <tr className="border odd:bg-gray-100 dark:odd:bg-gray-800 dark:border-gray-600">
       {props.columns.map((column, i) => {
-        const hasLink =
-          column.key === "episodeTitle" && props.reference.episodeLink;
+        let link;
+        if (column.key === "episodeTitle") {
+          link = props.reference.episodeLink;
+        }
+        if (column.key === "title") {
+          link = props.reference.href;
+        }
         return (
           <td key={`${props.rowIndex}-${i}`} className="p-2">
-            {hasLink ? (
+            {link !== undefined ? (
               <a
-                href={props.reference.episodeLink}
+                href={link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline focus:outline-none hover:text-blue-800 focus:text-blue-800 dark:hover:text-blue-400 dark:focus:text-blue-400 inline-block"
               >
-                {props.reference.episodeTitle}
+                {props.reference[column.key]}
               </a>
             ) : (
               props.reference[column.key]
