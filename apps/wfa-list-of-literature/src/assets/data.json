@@ -925,6 +925,13 @@
           "title": "Die Europäische Zentralbank",
           "item": "Alexander Thiele: Die Europäische Zentralbank, Mohr Siebeck.",
           "publisher": "Mohr Siebeck"
+        },
+        {
+          "author": "Nicolas Afflatet",
+          "title": "Staatsfinanzierung durch Geldpolitik",
+          "href": "https://www.wirtschaftsdienst.eu/inhalt/jahr/2019/heft/8/beitrag/staatsfinanzierung-durch-geldpolitik.html",
+          "item": "Artikel von Nicolas Afflatet: https://www.wirtschaftsdienst.eu/inhalt/jahr/2019/heft/8/beitrag/staatsfinanzierung-durch-geldpolitik.html",
+          "publisher": "wirschaftsdienst.eu"
         }
       ]
     },
@@ -942,10 +949,11 @@
           "publisher": "Westend Verlag"
         },
         {
-          "author": "Uwe Fuhrmann",
-          "title": "Die Entstehung der \"Sozialen Marktwirtschaft\" 1948/49",
-          "item": "Uwe Fuhrmann: Die Entstehung der \"Sozialen Marktwirtschaft\" 1948/49. Eine historische Dispositivanalyse. ",
-          "publisher": "Eine historische Dispositivanalyse"
+          "author": "Nelli Tügel",
+          "title": "Der Mythos der Bundesrepublik",
+          "href": "https://www.neues-deutschland.de/artikel/1105354.generalstreik-der-mythos-der-bundesrepublik.html",
+          "item": "Interview zwischen Fuhrmann und Nelli Tügel: https://www.neues-deutschland.de/artikel/1105354.generalstreik-der-mythos-der-bundesrepublik.html",
+          "publisher": "neues-deutschland.de"
         },
         {
           "author": "Ludwig Erhard",
@@ -992,6 +1000,27 @@
       "href": "https://www.youtube.com/watch?v=emn_FVeQbNw",
       "description": "Banken produzieren heute Geld per Knopfdruck. Das hat Vorteile, denn so kann die Wirtschaft jederzeit mit Krediten versorgt werden, doch dieses Geldsystem birgt auch enorme Risiken: Finanzspekulationen werden so befeuert, vor allem aber besteht immer die Gefahr eines Bank Runs, bei dem Bürger plötzlich ihr Geld von der Bank abheben wollen und feststellen müssen, dass die Geschäftsbanken nur einen geringen Teil als Bargeld vorrätig haben. Hier kommt eine Geldreform ins Spiel, die vor allem in der #Schweiz für Aufsehen sorgte: Von der Vollgeld-Initiative ist die Rede. Nach diesem Konzept sollen nur noch Notenbanken beziehungsweise Zentralbanken die Möglichkeit haben, neues Geld zu emittieren. Das #Giralgeld würde sich so in Vollgeld verwandeln und würde damit dieselben staatlichen Garantien wie #Bargeld genießen, denn nur Notenbanken dürfen Münze und Scheine drucken. Was praktisch und sinnvoll klingt, ist jedoch möglicherweise nur eine Verschlimmbesserung:  Geldengpässe könnten so entstehen, auch würde das neue System die Macht der Zentralbanken nur weiter verfestigen. In der neuen Folge von „Wohlstand für Alle“ sprechen Ole Nymoen und Wolfgang M. Schmitt über Vollgeld und üben Kritik an dieser Idee.\n\nLiteratur:\n\nHeiner Flassbeck, Friederike Spiecker: Vollgeld, das moderne Gold, in: Makroskop:\nhttps://makroskop.eu/2014/05/abo-artikel-unser-geldsystem-xiii-vollgeld-das-moderne-gold/\n\nWas ist Vollgeld?: \nhttps://vollgeld.page/was-ist-vollgeld\n\nSimon Schmid: Vollgeld für Dummies, in: Republik: https://www.republik.ch/2018/05/09/vollgeld-fuer-dummies\n\nVerein Monetäre Modernisierung (Hrsg.): Die Vollgeld-Reform. Wie Staatsschulden abgebaut und Finanzkrisen verhindert werden können. Edition Zeitpunkt.\n\nAaron Sahr: Keystroke-Kapitalismus. Ungleichheit per Knopfdruck. Hamburger Edition.\n\nIhr könnt uns unterstützen - herzlichen Dank! \r\nPaypal: https://www.paypal.me/oleundwolfgang\r\n\r\nWolfgang M. Schmitt, Ole Nymoen \r\nBetreff: Wohlstand fuer Alle \r\nIBAN: DE67 5745 0120 0130 7996 12 \r\nBIC: MALADE51NWD\r\n\r\nIhr könnt uns auch als Podcast hören:\r\nPodigee: https://wohlstandfueralle.podigee.io/\r\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\r\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?ign-mpt=uo%3D4\r\n\r\nTwitter: \r\nOle: twitter.com/nymoen_ole \r\nWolfgang: twitter.com/SchmittJunior",
       "references": [
+        {
+          "author": "Heiner Flassbeck, Friederike Spiecker",
+          "title": "Vollgeld, das moderne Gold",
+          "href": "https://makroskop.eu/2014/05/abo-artikel-unser-geldsystem-xiii-vollgeld-das-moderne-gold/",
+          "item": "Heiner Flassbeck, Friederike Spiecker: Vollgeld, das moderne Gold, in: Makroskop: https://makroskop.eu/2014/05/abo-artikel-unser-geldsystem-xiii-vollgeld-das-moderne-gold/",
+          "publisher": "makroskop.eu"
+        },
+        {
+          "author": "Joseph Huber",
+          "title": "Was ist Vollgeld?",
+          "href": "https://vollgeld.page/was-ist-vollgeld",
+          "item": "Was ist Vollgeld? https://vollgeld.page/was-ist-vollgeld",
+          "publisher": "vollgeld.page"
+        },
+        {
+          "author": "Simon Schmid",
+          "title": "Vollgeld für Dummies",
+          "href": "https://www.republik.ch/2018/05/09/vollgeld-fuer-dummies",
+          "item": "Simon Schmid: Vollgeld für Dummies, in: Republik: https://www.republik.ch/2018/05/09/vollgeld-fuer-dummies",
+          "publisher": "republik.ch"
+        },
         {
           "author": "Verein Monetäre Modernisierung (Hrsg.)",
           "title": "Die Vollgeld-Reform. Wie Staatsschulden abgebaut und Finanzkrisen verhindert werden können",
@@ -1056,6 +1085,20 @@
       "description": "Das Coronavirus (#Covid19) ist für die Weltwirtschaft eine ernsthafte Bedrohung, die #Aktienkurse sind folglich massiv eingebrochen. Doch warum reagiert die #Börse so besonders empfindlich auf das Virus, das zwar inzwischen Produktions- und Lieferketten erheblich gefährdet, doch nicht unbedingt panische Aktienverkäufe auslösen müsste. \nEin Grund dafür liegt in einem weithin unterschätzten Phänomen: Viral gehende Narrative beeinflussen die Ökonomie oft stärker, als es viele Wirtschaftsexperten glauben wollen. Ähnliches ist im Alltag zu erleben, wenn aus Angst vor Knappheit plötzlich Hamsterkäufe getätigt werden. Zugleich gibt es aber noch eine weitere Gefahr, die von Corona ausgeht: Neoliberale Ziele könnten jetzt durchgesetzt werden, indem man den wirtschaftlichen Ausnahmezustand verkündet und die Katastrophe für dubiose Ziele ausnutzt. \nIn der neuen Folge von „Wohlstand für Alle“ sprechen Ole Nymoen und Wolfgang M. Schmitt über die Auswirkungen von Covid19 auf die Wirtschaft.   \n\nLiteratur:\nJagdish Natwarlal Bhagwati im „Handelsblatt“-Interview: https://www.handelsblatt.com/politik/deutschland/interview-handelstheoretiker-bhagwati-trump-verletzt-zutiefst-us-wirtschaftsinteressen/25565934.html\n\nChristian Grimm in der „Augsburger Allgemeinen“ über die Corona-Vorschläge der CSU: https://www.augsburger-allgemeine.de/wirtschaft/CSU-will-Boersensteuer-Plaene-wegen-Coronavirus-Ausbruch-aufgeben-id56985501-amp.html?\n\nNaomi Klein: Die Schock-Strategie. Der Aufstieg des Katastrophen-Kapitalismus. Fischer.\n\nRobert J. Shiller: Narrative Wirtschaft: Wie Geschichten die Wirtschaft beeinflussen - ein revolutionärer Erklärungsansatz. Plassen.\n\nRobert J. Shiller im „Handelsblatt“-Interview: https://www.handelsblatt.com/politik/international/oekonom-im-interview-corona-epidemie-us-nobelpreistraeger-robert-shiller-warnt-vor-abwaertsspirale/25586770.html?ticket=ST-5570845-afkqYB6uc4G0jIpnLRPP-ap2\n\nStudie „Seemingly Irrelevant Events Affect Economic Perceptions and Expectations: The FIFA World Cup 2006 as a Natural Experiment“: ftp.iza.org/dp2275.pdf\n\nNassim Nicholas Taleb: Der Schwarze Schwan. Die Macht höchst unwahrscheinlicher Ereignisse. Knaus.\n\nIhr könnt uns unterstützen - herzlichen Dank! \r\nPaypal: https://www.paypal.me/oleundwolfgang\r\n\r\nWolfgang M. Schmitt, Ole Nymoen \r\nBetreff: Wohlstand fuer Alle \r\nIBAN: DE67 5745 0120 0130 7996 12 \r\nBIC: MALADE51NWD\r\n\r\nIhr könnt uns auch als Podcast hören:\r\nPodigee: https://wohlstandfueralle.podigee.io/\r\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\r\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?ign-mpt=uo%3D4\r\n\r\nTwitter: \r\nOle: twitter.com/nymoen_ole \r\nWolfgang: twitter.com/SchmittJunior",
       "references": [
         {
+          "author": "Jens Münchrath",
+          "title": "Handelstheoretiker Bhagwati: „Trump verletzt zutiefst US-Wirtschaftsinteressen“",
+          "href": "https://www.handelsblatt.com/politik/deutschland/interview-handelstheoretiker-bhagwati-trump-verletzt-zutiefst-us-wirtschaftsinteressen/25565934.html",
+          "item": "Jagdish Natwarlal Bhagwati im „Handelsblatt“-Interview: https://www.handelsblatt.com/politik/deutschland/interview-handelstheoretiker-bhagwati-trump-verletzt-zutiefst-us-wirtschaftsinteressen/25565934.html",
+          "publisher": "handelsblatt.com"
+        },
+        {
+          "author": "Christian Grimm",
+          "title": "CSU will Börsensteuer-Pläne wegen Coronavirus-Ausbruch aufgeben",
+          "href": "https://www.augsburger-allgemeine.de/wirtschaft/CSU-will-Boersensteuer-Plaene-wegen-Coronavirus-Ausbruch-aufgeben-id56985501-amp.html?",
+          "item": "Christian Grimm in der „Augsburger Allgemeinen“ über die Corona-Vorschläge der CSU: https://www.augsburger-allgemeine.de/wirtschaft/CSU-will-Boersensteuer-Plaene-wegen-Coronavirus-Ausbruch-aufgeben-id56985501-amp.html?",
+          "publisher": "augsburger-allgemeine.de"
+        },
+        {
           "author": "Naomi Klein",
           "title": "Die Schock-Strategie. Der Aufstieg des Katastrophen-Kapitalismus",
           "item": "Naomi Klein: Die Schock-Strategie. Der Aufstieg des Katastrophen-Kapitalismus. Fischer.",
@@ -1066,6 +1109,20 @@
           "title": "Narrative Wirtschaft: Wie Geschichten die Wirtschaft beeinflussen - ein revolutionärer Erklärungsansatz",
           "item": "Robert J. Shiller: Narrative Wirtschaft: Wie Geschichten die Wirtschaft beeinflussen - ein revolutionärer Erklärungsansatz. Plassen.",
           "publisher": "Plassen"
+        },
+        {
+          "author": "Jens Münchrath",
+          "title": "Corona-Epidemie: US-Nobelpreisträger Robert Shiller warnt vor Abwärtsspirale",
+          "href": "https://www.handelsblatt.com/politik/international/oekonom-im-interview-corona-epidemie-us-nobelpreistraeger-robert-shiller-warnt-vor-abwaertsspirale/25586770.html?ticket=ST-5570845-afkqYB6uc4G0jIpnLRPP-ap2",
+          "item": "Robert J. Shiller im „Handelsblatt“-Interview: https://www.handelsblatt.com/politik/international/oekonom-im-interview-corona-epidemie-us-nobelpreistraeger-robert-shiller-warnt-vor-abwaertsspirale/25586770.html?ticket=ST-5570845-afkqYB6uc4G0jIpnLRPP-ap2",
+          "publisher": "handelsblatt.com"
+        },
+        {
+          "author": "Thomas Dohmen, Armin Falk, David Huffman, Uwe Sunde",
+          "title": "Seemingly Irrelevant Events Affect Economic Perceptions and Expectations: The FIFA World Cup 2006 as a Natural Experiment",
+          "item": "Studie „Seemingly Irrelevant Events Affect Economic Perceptions and Expectations: The FIFA World Cup 2006 as a Natural Experiment“: ftp.iza.org/dp2275.pdf",
+          "href": "ftp.iza.org/dp2275.pdf",
+          "publisher": "iza.org"
         },
         {
           "author": "Nassim Nicholas Taleb",
@@ -1113,10 +1170,24 @@
       "description": "An der Modern Monetary Theory (#MMT), die wir bereits vorgestellt haben, gibt es auch Kritik. Es sind nicht nur liberal-konservative Stimmen, die die moderne #Geldpolitik kritisieren, sondern auch linke Theoretiker haben erhebliche Zweifel an den Prämissen und vor allem an der Wirksamkeit der Theorie, die zwar inzwischen dank Bernie Sanders und Alexandria Ocasio-Cortez in aller Munde ist, jedoch nach wie vor eine randständige Position im ökonomischen Mainstream-Diskurs bildet. \nWas aber bringen Kritiker gegen die MMT vor? Manche bezweifeln, dass mit ihr tatsächlich das wirtschaftliche System revolutioniert werden kann. So wird davor gewarnt, die neue Form der Geldpolitik als ein Allheilmittel anzusehen, das die Widersprüche des #Kapitalismus auflöst. Ist die MMT am Ende blanker #Solutionismus, dessen Folgen eher negativ sein könnten? \nDarüber sprechen Ole Nymoen und Wolfgang M. Schmitt in der neuen Folge von „Wohlstand für Alle“.\n\nLiteratur:\nDoug Henwood in Jacobin: https://jacobinmag.com/2019/02/modern-monetary-theory-isnt-helping\nThomas S. Kuhn: Die Struktur wissenschaftlicher Revolutionen. Suhrkamp.\nNikolaus Pieper über die MMT in der Süddeutschen Zeitung: https://www.sueddeutsche.de/wirtschaft/pipers-welt-schlaraffenland-1.4406012\n\nIhr könnt uns unterstützen - herzlichen Dank! \r\nPaypal: https://www.paypal.me/oleundwolfgang\r\n\r\nWolfgang M. Schmitt, Ole Nymoen \r\nBetreff: Wohlstand fuer Alle \r\nIBAN: DE67 5745 0120 0130 7996 12 \r\nBIC: MALADE51NWD\r\n\r\nIhr könnt uns auch als Podcast hören:\r\nPodigee: https://wohlstandfueralle.podigee.io/\r\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\r\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?ign-mpt=uo%3D4\r\n\r\nTwitter: \r\nOle: twitter.com/nymoen_ole \r\nWolfgang: twitter.com/SchmittJunior",
       "references": [
         {
+          "author": "Doug Henwood",
+          "title": "Modern Monetary Theory Isn’t Helping",
+          "href": "https://jacobinmag.com/2019/02/modern-monetary-theory-isnt-helping",
+          "item": "Doug Henwood in Jacobin: https://jacobinmag.com/2019/02/modern-monetary-theory-isnt-helping",
+          "publisher": "jacobinmag.com"
+        },
+        {
           "author": "Thomas S. Kuhn",
           "title": "Die Struktur wissenschaftlicher Revolutionen",
           "item": "Thomas S. Kuhn: Die Struktur wissenschaftlicher Revolutionen. Suhrkamp.",
           "publisher": "Suhrkamp"
+        },
+        {
+          "author": "Nikolaus Pieper",
+          "title": "Schlaraffenland",
+          "href": "https://www.sueddeutsche.de/wirtschaft/pipers-welt-schlaraffenland-1.4406012",
+          "item": "Nikolaus Pieper über die MMT in der Süddeutschen Zeitung: https://www.sueddeutsche.de/wirtschaft/pipers-welt-schlaraffenland-1.4406012",
+          "publisher": "sueddeutsche.de"
         }
       ]
     },
@@ -1128,10 +1199,45 @@
       "description": "Was eigentlich ist der Green New Deal? Fest steht: Einige Klimaaktivisten der #FridaysForFuture fordern ihn, viele #ScientistsForFuture ebenso, Wirtschaftsliberale und Linke, grüne Politiker und Wirtschaftswissenschaftler sowie Kapitalismuskritiker liebäugeln mit einem Projekt, das den New Deal von US-Präsident Roosevelt zum Vorbild hat. \nDoch keineswegs besteht Einigkeit darüber, wie der grüne Deal, der die Klimakatastrophe abwenden soll, genau aussehen soll. Für Bernie Sanders und Alexandria Ocasio-Cortez zum Beispiel soll er ein ökologisches und zugleich ein soziales Projekt sein, das dem vorherrschenden #Neoliberalismus ein Ende bereitet. Andere aber sehen im Green New Deal einen Wettbewerbsvorteil für ihr Land und erhoffen sich die Stabilisierung eines Kapitalismus, der der Idee vom unbegrenzten Wachstum die Treue hält. \nIn der neuen Folge von „Wohlstand für Alle“ stellen Ole Nymoen und Wolfgang M. Schmitt einige Green-New-Deal-Ideen vor und erklären, warum Wachstum und Umweltschutz nicht zusammenpassen können.\n\nLiteratur:\n\nThomas L. Friedman: A Warning From the Garden: https://www.nytimes.com/2007/01/19/opinion/19friedman.html\n\nHandelsblatt: Was Umweltökonomen gegen Ocasio-Cortez' „Green New Deal“ haben: https://www.handelsblatt.com/politik/deutschland/klimapolitik-in-den-usa-was-umweltoekonomen-gegen-ocasio-cortez-green-new-deal-haben/24272364.html?ticket=ST-1674954-w7vgWscXDUfAZFCEFkF1-ap2\n\nStephan Kaufmann, Tadzio Müller: Grüner Kapitalismus Krise, Klimawandel und kein Ende des Wachstums: https://www.rosalux.de/publikation/id/4328/gruener-kapitalismus/\n\nNaomi Klein: Warum nur ein Green New Deal unseren Planeten retten kann. Hoffmann und Campe.\n\nLunapark21:\nhttps://www.lunapark21.net/elektro-pkw-sind-wesentlicher-bestandteil-im-weltweiten-kampf-gegen-die-klimaerwaermung/\n\nAlexandria Ocasio-Cortez: Green New Deal Resolution: https://ocasio-cortez.house.gov/gnd/resolution\n\nIhr könnt uns unterstützen - herzlichen Dank! \r\nPaypal: https://www.paypal.me/oleundwolfgang\r\n\r\nWolfgang M. Schmitt, Ole Nymoen \r\nBetreff: Wohlstand fuer Alle \r\nIBAN: DE67 5745 0120 0130 7996 12 \r\nBIC: MALADE51NWD\r\n\r\nIhr könnt uns auch als Podcast hören:\r\nPodigee: https://wohlstandfueralle.podigee.io/\r\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\r\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?ign-mpt=uo%3D4\r\n\r\nTwitter: \r\nOle: twitter.com/nymoen_ole \r\nWolfgang: twitter.com/SchmittJunior",
       "references": [
         {
+          "author": "Thomas L. Friedman",
+          "title": "A Warning From the Garden",
+          "href": "https://www.nytimes.com/2007/01/19/opinion/19friedman.html",
+          "item": "Thomas L. Friedman: A Warning From the Garden: https://www.nytimes.com/2007/01/19/opinion/19friedman.html",
+          "publisher": "nytimes.com"
+        },
+        {
+          "author": "Norbert Häring",
+          "title": "Was Umweltökonomen gegen Ocasio-Cortez' „Green New Deal“ haben",
+          "href": "https://www.handelsblatt.com/politik/deutschland/klimapolitik-in-den-usa-was-umweltoekonomen-gegen-ocasio-cortez-green-new-deal-haben/24272364.html?ticket=ST-1674954-w7vgWscXDUfAZFCEFkF1-ap2",
+          "item": "Handelsblatt: Was Umweltökonomen gegen Ocasio-Cortez' „Green New Deal“ haben: https://www.handelsblatt.com/politik/deutschland/klimapolitik-in-den-usa-was-umweltoekonomen-gegen-ocasio-cortez-green-new-deal-haben/24272364.html?ticket=ST-1674954-w7vgWscXDUfAZFCEFkF1-ap2",
+          "publisher": "handelsblatt.com"
+        },
+        {
+          "author": "Stephan Kaufmann, Tadzio Müller",
+          "title": "Grüner Kapitalismus Krise, Klimawandel und kein Ende des Wachstums",
+          "href": "https://www.rosalux.de/publikation/id/4328/gruener-kapitalismus/",
+          "item": "Stephan Kaufmann, Tadzio Müller: Grüner Kapitalismus Krise, Klimawandel und kein Ende des Wachstums: https://www.rosalux.de/publikation/id/4328/gruener-kapitalismus/",
+          "publisher": "rosalux.de"
+        },
+        {
           "author": "Naomi Klein",
           "title": "Warum nur ein Green New Deal unseren Planeten retten kann",
           "item": "Naomi Klein: Warum nur ein Green New Deal unseren Planeten retten kann. Hoffmann und Campe.",
           "publisher": "Hoffmann und Campe"
+        },
+        {
+          "author": "Winfried Wolf",
+          "title": "Elektro-Pkw sind wesentlicher Bestandteil im weltweiten Kampf gegen die Klimaerwärmung",
+          "href": "https://www.lunapark21.net/elektro-pkw-sind-wesentlicher-bestandteil-im-weltweiten-kampf-gegen-die-klimaerwaermung/",
+          "item": "Lunapark21: https://www.lunapark21.net/elektro-pkw-sind-wesentlicher-bestandteil-im-weltweiten-kampf-gegen-die-klimaerwaermung/",
+          "publisher": "lunapark24.net"
+        },
+        {
+          "author": "Alexandria Ocasio-Cortez",
+          "title": "Green New Deal Resolution",
+          "href": "https://ocasio-cortez.house.gov/gnd/resolution",
+          "item": "Alexandria Ocasio-Cortez: Green New Deal Resolution: https://ocasio-cortez.house.gov/gnd/resolution",
+          "publisher": "ocasio-cortez.house.gov"
         }
       ]
     },
@@ -1142,6 +1248,13 @@
       "href": "https://www.youtube.com/watch?v=FRf7GZNUDoM",
       "description": "Wenn Arbeiter entlassen und Standorte geschlossen werden, herrscht oft große Ratlosigkeit: Warum tun #Manager von Unternehmen so etwas überhaupt und weshalb erhalten sie dafür dann auch noch einen fetten Bonus? Die kurze Antwort darauf lautet: Sie folgen mit solch radikalen Schritten dem Shareholder-Value-Ansatz. \nDoch was steckt hinter diesem eher nebulös klingenden Begriff?  In erster Linie geht es darum, dass Manager den Aktionären – und nicht etwa den Angestellten eines Unternehmens – zu dienen haben. Der Ansatz wird seit Jahrzehnten propagiert, etwa von dem neoliberalen Denker Milton #Friedman. Doch in letzter Zeit wird immer mehr Kritik an der Shareholder-Value-#Ideologie laut – und diese kommt nicht nur von links. \nIn der neuen Folge von „Wohlstand für Alle“ erklären Ole Nymoen und Wolfgang M. Schmitt den Ansatz und die Kritik daran.\n\nLiteratur:\n\nMilton Friedman: The Social Responsibility of Business is to increase its Profits. New York Times: \nhttps://graphics8.nytimes.com/packages/pdf/business/miltonfriedman1970.pdf\n\nAlfred Rappaport: Shareholder-Value. 2. Auflage. Schäffer-Poeschel\n\nLynn Stout: The Shareholder Value Myth. Berrett-Koehler Publishers\n\n\nIhr könnt uns unterstützen - herzlichen Dank! \r\nPaypal: https://www.paypal.me/oleundwolfgang\r\n\r\nWolfgang M. Schmitt, Ole Nymoen \r\nBetreff: Wohlstand fuer Alle \r\nIBAN: DE67 5745 0120 0130 7996 12 \r\nBIC: MALADE51NWD\r\n\r\nIhr könnt uns auch als Podcast hören:\r\nPodigee: https://wohlstandfueralle.podigee.io/\r\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\r\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?ign-mpt=uo%3D4\r\n\r\nTwitter: \r\nOle: twitter.com/nymoen_ole \r\nWolfgang: twitter.com/SchmittJunior",
       "references": [
+        {
+          "author": "Milton Friedman",
+          "title": "The Social Responsibility of Business is to increase its Profits",
+          "item": "Milton Friedman: The Social Responsibility of Business is to increase its Profits. New York Times: https://graphics8.nytimes.com/packages/pdf/business/miltonfriedman1970.pdf",
+          "href": "https://graphics8.nytimes.com/packages/pdf/business/miltonfriedman1970.pdf",
+          "publisher": "nytimes.com"
+        },
         {
           "author": "Alfred Rappaport",
           "title": "Shareholder-Value. 2. Auflage",
@@ -1170,10 +1283,31 @@
           "publisher": "Suhrkamp"
         },
         {
+          "author": "Andrew Carnegie",
+          "title": "Wer reicht stirbt, stirbt in Schande (The Gospel of Wealth)",
+          "href": "https://www.cicero.de/wirtschaft/wer-reich-stirbt-stirbt-schande/37352",
+          "item": "Andrew Carnegie: Wer reicht stirbt, stirbt in Schande (The Gospel of Wealth), in: Cicero https://www.cicero.de/wirtschaft/wer-reich-stirbt-stirbt-schande/37352",
+          "publisher": "cicero.de"
+        },
+        {
           "author": "Claudia Pinl",
           "title": "Ein Cappuccino für die Armen. Kritik der Spenden- und Ehrenamtsökonomie",
           "item": "Claudia Pinl: Ein Cappuccino für die Armen. Kritik der Spenden- und Ehrenamtsökonomie. PapyRossa.",
           "publisher": "PapyRossa"
+        },
+        {
+          "author": "David Yermack",
+          "title": "Deductio Ad Absurdum: CEOs Donating Their Own Stock to Their Own Family Foundations",
+          "href": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1096257",
+          "item": "David Yermack: Deductio Ad Absurdum: CEOs Donating Their Own Stock to Their Own Family Foundations. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1096257",
+          "publisher": "ssrn.com"
+        },
+        {
+          "author": "Slavoj Zizek",
+          "title": "Der liberale Kommunist",
+          "href": "https://www.cicero.de/wirtschaft/der-liberale-kommunist/37445",
+          "item": "Slavoj Zizek: Der liberale Kommunist, in: Cicero https://www.cicero.de/wirtschaft/der-liberale-kommunist/37445",
+          "publisher": "cicero.de"
         }
       ]
     },
@@ -1205,6 +1339,12 @@
       "href": "https://www.youtube.com/watch?v=tv7CR1gE7iE",
       "description": "Die #SPD hat zwei neue Vorsitzende: Saskia Esken und Norbert Walter-Borjans. \nGlücklich sind darüber, gelinde gesagt, nicht alle. Vor allem Hauptstadtjournalisten hyperventilieren und tun so, als würde mit den beiden Politikern Deutschlands Weg nun direkt in den Sozialismus führen. Doch woher kommt diese Ablehnung? \nEine Antwort liefert das Buch von Norbert Walter-Borjans, der ein versierter Steuerexperte ist und keineswegs ahnungslos, wie manche Journalisten schreiben. In „Steuern - Der große Bluff“ erklärt #NoWaBo, wie in Deutschland #Steuern hinterzogen und umgangen werden, außerdem rechnet er mit der Lobby der Steuergegner ab, die in den Medien häufig Gehör finden. \nWalter-Borjans vertritt sozialdemokratische Positionen, aber genau dies missfällt vor allem jenen, die sehr viel haben und möglichst wenig davon abgeben wollen. Verwunderlich ist das nicht, schon Karl Marx hat im 19. Jahrhundert erklärt, warum Macht über das Kapital häufig auch Macht über die Medien bedeutet. \nIn der neuen Folge von „Wohlstand für Alle“ sprechen Ole Nymoen und Wolfgang M. Schmitt über Norbert Walter-Borjans und die Steuern. \n\nLiteratur:\r\n\nKarl Marx: Die deutsche Ideologie. Marx-Engels-Werke, Bd. 3.\r Dietz\n\nNorbert Walter-Borjans: „Steuern – Der große Bluff“. KiWi-Paperback.\n\nIhr könnt uns unterstützen - herzlichen Dank! \r\nPaypal: https://www.paypal.me/oleundwolfgang\r\n\r\nWolfgang M. Schmitt, Ole Nymoen \r\nBetreff: Wohlstand fuer Alle \r\nIBAN: DE67 5745 0120 0130 7996 12 \r\nBIC: MALADE51NWD\r\n\r\nIhr könnt uns auch als Podcast hören:\r\nPodigee: https://wohlstandfueralle.podigee.io/\r\nSpotify: https://open.spotify.com/show/12x5cqwBBQjoJo8RcOnyI5\r\niTunes: https://podcasts.apple.com/de/podcast/wohlstand-f%C3%BCr-alle/id1476402723?ign-mpt=uo%3D4\r\n\r\nTwitter: \r\nOle: twitter.com/nymoen_ole \r\nWolfgang: twitter.com/SchmittJunior",
       "references": [
+        {
+          "author": "Karl Marx",
+          "title": "Die deutsche Ideologie. Marx-Engels-Werke, Bd. 3.",
+          "item": "Karl Marx: Die deutsche Ideologie. Marx-Engels-Werke, Bd. 3.\r Dietz",
+          "publisher": "Dietz"
+        },
         {
           "author": "Norbert Walter-Borjans",
           "title": "„Steuern – Der große Bluff“",
