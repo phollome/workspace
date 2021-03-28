@@ -12,7 +12,6 @@ interface Reference {
 }
 
 interface Episode {
-  id: number;
   title: string;
   pubDate: string;
   href: string;
@@ -42,18 +41,24 @@ function useReferences(data: Data) {
   const [references, setReferences] = React.useState<EnhancedReference[]>();
 
   React.useEffect(() => {
-    const collectedReferences = episodes.reduce((array, episode) => {
-      const enhancedReferences = episode.references.map((reference) => {
-        return {
-          episodeId: episode.id,
-          episodeTitle: episode.title,
-          episodePubDate: episode.pubDate,
-          episodeLink: episode.href,
-          ...reference,
-        };
+    const collectedReferences = episodes
+      .reduce((array, episode) => {
+        const enhancedReferences = episode.references.map((reference) => {
+          return {
+            episodeTitle: episode.title,
+            episodePubDate: episode.pubDate,
+            episodeLink: episode.href,
+            ...reference,
+          };
+        });
+        return array.concat(enhancedReferences);
+      }, [])
+      .sort((a, b) => {
+        return (
+          new Date(b.episodePubDate).getTime() -
+          new Date(a.episodePubDate).getTime()
+        );
       });
-      return array.concat(enhancedReferences);
-    }, []);
     setReferences(collectedReferences);
   }, [title, link, episodes]);
 
