@@ -106,7 +106,11 @@ function TableRow(props: TableRowProps) {
             <td key={`${props.rowIndex}-${i}`} className="p-2">
               {props.reference.episodes
                 .map((episode) => (
-                  <Link href={episode.link} content={episode.title} />
+                  <Link
+                    key={episode.title}
+                    href={episode.link}
+                    content={episode.title}
+                  />
                 ))
                 .reduce(
                   (array, current, index) => [
