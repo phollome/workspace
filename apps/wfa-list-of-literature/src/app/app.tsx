@@ -26,9 +26,8 @@ interface Data {
 }
 
 export interface EnhancedReference {
-  episodeId: number;
   episodeTitle: string;
-  episodePubDate: Date;
+  episodePubDate: string;
   episodeLink: string;
   author: string;
   title: string;
