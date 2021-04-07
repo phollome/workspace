@@ -101,7 +101,7 @@ function TableRow(props: TableRowProps) {
             </td>
           );
         }
-        if (column.key === "episodeTitle") {
+        if (column.key === "episodes") {
           return (
             <td key={`${props.rowIndex}-${i}`} className="p-2">
               {props.reference.episodes
@@ -140,7 +140,7 @@ const columns = [
   },
   { key: "title", content: "Titel" },
   { key: "publisher", content: "Verlage/Quellen" },
-  { key: "episodeTitle", content: "Episodentitel" },
+  { key: "episodes", content: "Episodentitel" },
 ] as Column[];
 
 export interface TableProps {
@@ -188,8 +188,15 @@ export function Table(props: TableProps) {
       setSortedReferences([...filteredReferences]);
     } else {
       const sortedItems = [...filteredReferences].sort((a, b) => {
-        const aContent = a[selectedColumn];
-        const bContent = b[selectedColumn];
+        const aContent =
+          selectedColumn === "episodes"
+            ? a[selectedColumn].map((item) => item.title).join(", ")
+            : a[selectedColumn];
+        const bContent =
+          selectedColumn === "episodes"
+            ? b[selectedColumn].map((item) => item.title).join(", ")
+            : b[selectedColumn];
+
         switch (sorting) {
           case Sorting.Descending:
             return aContent.localeCompare(bContent);
