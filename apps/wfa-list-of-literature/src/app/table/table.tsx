@@ -1,6 +1,7 @@
 import React from "react";
 import Fuse from "fuse.js";
 import { EnhancedReference } from "../app";
+import { MergedReference } from "../utils";
 
 enum Sorting {
   Ascending,
@@ -57,6 +58,24 @@ function ColumnHead(props: ColumnHeadProps) {
   );
 }
 
+interface LinkProps {
+  href: string;
+  content: string;
+}
+
+function Link(props: LinkProps) {
+  return (
+    <a
+      href={props.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline focus:outline-none hover:text-blue-800 focus:text-blue-800 dark:hover:text-blue-400 dark:focus:text-blue-400"
+    >
+      {props.content}
+    </a>
+  );
+}
+
 interface Column {
   key: string;
   content: string;
@@ -65,34 +84,44 @@ interface Column {
 interface TableRowProps {
   rowIndex: number;
   columns: Column[];
-  reference: EnhancedReference;
+  reference: MergedReference;
 }
 
 function TableRow(props: TableRowProps) {
   return (
     <tr className="border odd:bg-gray-100 dark:odd:bg-gray-800 dark:border-gray-600">
       {props.columns.map((column, i) => {
-        let link;
-        if (column.key === "episodeTitle") {
-          link = props.reference.episodeLink;
+        if (column.key === "title" && props.reference.href !== undefined) {
+          return (
+            <td key={`${props.rowIndex}-${i}`} className="p-2">
+              <Link
+                href={props.reference.href}
+                content={props.reference.title}
+              />
+            </td>
+          );
         }
-        if (column.key === "title") {
-          link = props.reference.href;
+        if (column.key === "episodeTitle") {
+          return (
+            <td key={`${props.rowIndex}-${i}`} className="p-2">
+              {props.reference.episodes
+                .map((episode) => (
+                  <Link href={episode.link} content={episode.title} />
+                ))
+                .reduce(
+                  (array, current, index) => [
+                    ...array,
+                    index > 0 ? ", " : "",
+                    current,
+                  ],
+                  []
+                )}
+            </td>
+          );
         }
         return (
           <td key={`${props.rowIndex}-${i}`} className="p-2">
-            {link !== undefined ? (
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline focus:outline-none hover:text-blue-800 focus:text-blue-800 dark:hover:text-blue-400 dark:focus:text-blue-400 inline-block"
-              >
-                {props.reference[column.key]}
-              </a>
-            ) : (
-              props.reference[column.key]
-            )}
+            {props.reference[column.key]}
           </td>
         );
       })}
@@ -112,7 +141,7 @@ const columns = [
 
 export interface TableProps {
   filterValue: string;
-  references?: EnhancedReference[];
+  references?: MergedReference[];
 }
 
 export function Table(props: TableProps) {
@@ -120,10 +149,10 @@ export function Table(props: TableProps) {
   const [selectedColumn, setSelectedColumn] = React.useState<string>();
   const [sorting, setSorting] = React.useState<Sorting>();
   const [filteredReferences, setFilteredReferences] = React.useState<
-    EnhancedReference[]
+    MergedReference[]
   >([]);
   const [sortedReferences, setSortedReferences] = React.useState<
-    EnhancedReference[]
+    MergedReference[]
   >([]);
   const fuse = React.useRef(null);
 

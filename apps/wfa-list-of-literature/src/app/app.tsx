@@ -3,6 +3,7 @@ import { DarkModeSwitch, FilterInput } from "@phollome/react-components";
 import { useDarkMode } from "@phollome/react-hooks";
 import Table, { TableProps } from "./table/table";
 import data from "../assets/data.json";
+import { MergedReference, mergeReferences } from "./utils";
 
 interface Reference {
   author: string;
@@ -37,7 +38,7 @@ export interface EnhancedReference {
 
 function useReferences(data: Data) {
   const { title, link, episodes } = data;
-  const [references, setReferences] = React.useState<EnhancedReference[]>();
+  const [references, setReferences] = React.useState<MergedReference[]>();
 
   React.useEffect(() => {
     const collectedReferences = episodes
@@ -58,7 +59,8 @@ function useReferences(data: Data) {
           new Date(a.episodePubDate).getTime()
         );
       });
-    setReferences(collectedReferences);
+    const mergedReferences = mergeReferences(collectedReferences);
+    setReferences(mergedReferences);
   }, [title, link, episodes]);
 
   return references;
