@@ -106,8 +106,8 @@ const columns = [
     content: "Autor:innen",
   },
   { key: "title", content: "Titel" },
-  { key: "publisher", content: "Verlage/Quelle" },
-  { key: "episodeTitle", content: "Episodetitel" },
+  { key: "publisher", content: "Verlage/Quellen" },
+  { key: "episodeTitle", content: "Episodentitel" },
 ] as Column[];
 
 export interface TableProps {
