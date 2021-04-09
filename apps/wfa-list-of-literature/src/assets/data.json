@@ -13,11 +13,11 @@
           "author": "Friedrich August von Hayek",
           "title": "Der Weg zur Knechtschaft",
           "item": "Friedrich August von Hayek: Der Weg zur Knechtschaft, Mohr Siebeck.",
-          "publisher": "Mohr Siebeck"
+          "publisher": "Lau Verlag/Mohr Siebeck"
         },
         {
           "author": "Adam Tooze",
-          "title": "Die Ökonomie der Zerstörung",
+          "title": "Die Ökonomie der Zerstörung. Die Geschichte der Wirtschaft im Nationalsozialismus",
           "item": "Adam Tooze: Die Ökonomie der Zerstörung, Pantheon.",
           "publisher": "Pantheon"
         }
@@ -49,7 +49,7 @@
         },
         {
           "author": "Quinn Slobodian",
-          "title": "Globalisten. Das Ende der Imperien und die Geburt des Neoliberalismus",
+          "title": "Globalisten: Das Ende der Imperien und die Geburt des Neoliberalismus",
           "item": "Quinn Slobodian: Globalisten. Das Ende der Imperien und die Geburt des Neoliberalismus, Suhrkamp.",
           "publisher": "Suhrkamp"
         }
@@ -143,7 +143,7 @@
           "author": "Milton Friedman",
           "title": "Kapitalismus und Freiheit",
           "item": "Milton Friedman: Kapitalismus und Freiheit, Piper Verlag. ",
-          "publisher": "Piper Verlag"
+          "publisher": "Piper"
         },
         {
           "author": "John Stuart Mill",
@@ -378,7 +378,7 @@
           "author": "Karl Marx",
           "title": "Das Kapital. Kritik der politischen Ökonomie. Erster Band",
           "item": "Karl Marx: Das Kapital. Kritik der politischen Ökonomie. Erster Band, Dietz.",
-          "publisher": "Dietz"
+          "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
     },
@@ -706,9 +706,9 @@
       "references": [
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie. Band 1",
+          "title": "Das Kapital. Kritik der politischen Ökonomie. Erster Band",
           "item": "Karl Marx: Das Kapital. Kritik der politischen Ökonomie. Band 1, Dietz Verlag.",
-          "publisher": "Dietz Verlag"
+          "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
     },
@@ -835,7 +835,7 @@
           "author": "Karl Marx",
           "title": "Das Kapital. Kritik der politischen Ökonomie. Erster Band",
           "item": "Karl Marx: Das Kapital. Kritik der politischen Ökonomie. Erster Band, Dietz Verlag.",
-          "publisher": "Dietz Verlag"
+          "publisher": "Karl Dietz Verlag Berlin"
         },
         {
           "author": "Wolfgang Streeck",
@@ -1137,9 +1137,9 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie. Erster Band (MEW 23)",
+          "title": "Das Kapital. Kritik der politischen Ökonomie. Erster Band",
           "item": "Karl Marx: Das Kapital. Kritik der politischen Ökonomie. Erster Band (MEW 23), Karl-Dietz-Verlag. ",
-          "publisher": "Karl-Dietz-Verlag"
+          "publisher": "Karl Dietz Verlag Berlin"
         },
         {
           "author": "Christian Schmidt",
@@ -1358,7 +1358,7 @@
           "author": "Christoph Deutschmann",
           "title": "Der Normalarbeitstag, in: Ingo Stützle (Hrsg): Work-Work-Balance. Marx, die Poren des Arbeitstags und neue Offensiven des Kapitals",
           "item": "Christoph Deutschmann: Der Normalarbeitstag, in: Ingo Stützle (Hrsg): Work-Work-Balance. Marx, die Poren des Arbeitstags und neue Offensiven des Kapitals. Dietz Berlin",
-          "publisher": "Dietz Berlin"
+          "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
     },
@@ -1473,9 +1473,9 @@
         },
         {
           "author": "Aaron Sahr",
-          "title": "Keystroke-Kapitalismus. Ungleichheit per Knopfdruck",
+          "title": "Keystroke-Kapitalismus. Ungleichheit auf Knopfdruck",
           "item": "Aaron Sahr: Keystroke-Kapitalismus. Ungleichheit per Knopfdruck. Hamburger Edition.",
-          "publisher": "Hamburger Edition"
+          "publisher": "Hamburger Edition/bpb"
         }
       ]
     },
@@ -1756,7 +1756,7 @@
           "author": "Sabine Nuss, Florian Butollo (Hrsg.)",
           "title": "Marx und die Roboter. Vernetzte Produktion, Künstliche Intelligenz und lebendige Arbeit",
           "item": "Sabine Nuss, Florian Butollo (Hrsg.): Marx und die Roboter. Vernetzte Produktion, Künstliche Intelligenz und lebendige Arbeit. Dietz Verlag Berlin.",
-          "publisher": "Dietz Verlag Berlin"
+          "publisher": "Karl Dietz Verlag Berlin"
         },
         {
           "author": "Richard David Precht",
@@ -1776,7 +1776,7 @@
           "author": "Karl Marx",
           "title": "Die deutsche Ideologie. Marx-Engels-Werke, Bd. 3.",
           "item": "Karl Marx: Die deutsche Ideologie. Marx-Engels-Werke, Bd. 3.\r Dietz",
-          "publisher": "Dietz"
+          "publisher": "Karl Dietz Verlag Berlin"
         },
         {
           "author": "Norbert Walter-Borjans",
@@ -1802,7 +1802,7 @@
           "author": "Karl Marx",
           "title": "Das Kapital",
           "item": "Karl Marx: Das Kapital. Karl Dietz Verlag",
-          "publisher": "Karl Dietz Verlag"
+          "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
     },
@@ -1879,10 +1879,10 @@
           "publisher": "Junius"
         },
         {
-          "author": "Friedrich A. v. Hayek",
+          "author": "Friedrich August von Hayek",
           "title": "Der Weg zur Knechtschaft",
           "item": "Friedrich A. v. Hayek: Der Weg zur Knechtschaft. Lau Verlag.",
-          "publisher": "Lau Verlag"
+          "publisher": "Lau Verlag/Mohr Siebeck"
         },
         {
           "author": "Milton und Rose Friedman",
