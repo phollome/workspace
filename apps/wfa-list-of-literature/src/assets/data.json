@@ -3,7 +3,32 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
-      "id": 1,
+      "title": "Bartleby, der Schreiber - Literatur #4",
+      "pubDate": "2021-04-10T04:30:05Z",
+      "href": "https://www.youtube.com/watch?v=-o_0XpCvMIw",
+      "description": "",
+      "references": [
+        {
+          "author": "Herman Meville",
+          "title": "Bartleby, der Schreiber. Eine Geschichte aus der Wall-Street",
+          "item": "Herman Meville: Bartleby, der Schreiber. Eine Geschichte aus der Wall-Street, Insel.",
+          "publisher": "Insel"
+        },
+        {
+          "author": "Joris-Karl Huysmans",
+          "title": "Monsieur Bougran in Pension",
+          "item": "Joris-Karl Huysmans: Monsieur Bougran in Pension, Friedenauer Presse.",
+          "publisher": "Friedenauer Presse"
+        },
+        {
+          "author": "David Graeber",
+          "title": "Bullshit Jobs. Vom wahren Sinn der Arbeit",
+          "item": "David Graeber: Bullshit Jobs. Vom wahren Sinn der Arbeit, Klett-Cotta.",
+          "publisher": "Klett-Cotta"
+        }
+      ]
+    },
+    {
       "title": "Hayek und das Hufeisen - WOHLSTAND FÜR ALLE Ep. 87",
       "pubDate": "2021-04-07T04:30:05Z",
       "href": "https://www.youtube.com/watch?v=XatrLjQbPnQ",
