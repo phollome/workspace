@@ -1,23 +1,12 @@
 {
   "version": 2,
-  "cli": {
-    "defaultCollection": "@nrwl/react"
-  },
+  "cli": { "defaultCollection": "@nrwl/react" },
   "defaultProject": "wfa-list-of-literature",
   "generators": {
     "@nrwl/react": {
-      "application": {
-        "style": "css",
-        "linter": "eslint",
-        "babel": true
-      },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
+      "application": { "style": "css", "linter": "eslint", "babel": true },
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "eslint" }
     }
   },
   "projects": {
@@ -106,15 +95,9 @@
           "options": {
             "uiFramework": "@storybook/react",
             "port": 4400,
-            "config": {
-              "configFolder": "libs/react-components/.storybook"
-            }
+            "config": { "configFolder": "libs/react-components/.storybook" }
           },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
+          "configurations": { "ci": { "quiet": true } }
         },
         "build-storybook": {
           "executor": "@nrwl/storybook:build",
@@ -122,15 +105,9 @@
           "options": {
             "uiFramework": "@storybook/react",
             "outputPath": "dist/storybook/react-components",
-            "config": {
-              "configFolder": "libs/react-components/.storybook"
-            }
+            "config": { "configFolder": "libs/react-components/.storybook" }
           },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
+          "configurations": { "ci": { "quiet": true } }
         }
       }
     },
@@ -206,9 +183,7 @@
         },
         "serve": {
           "executor": "@nrwl/web:dev-server",
-          "options": {
-            "buildTarget": "wfa-list-of-literature:build"
-          },
+          "options": { "buildTarget": "wfa-list-of-literature:build" },
           "configurations": {
             "production": {
               "buildTarget": "wfa-list-of-literature:build:production"
@@ -228,6 +203,52 @@
           "outputs": ["coverage/apps/wfa-list-of-literature"],
           "options": {
             "jestConfig": "apps/wfa-list-of-literature/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "stores-api": {
+      "root": "apps/stores-api",
+      "sourceRoot": "apps/stores-api/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/stores-api",
+            "main": "apps/stores-api/src/main.ts",
+            "tsConfig": "apps/stores-api/tsconfig.app.json",
+            "assets": ["apps/stores-api/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/stores-api/src/environments/environment.ts",
+                  "with": "apps/stores-api/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:execute",
+          "options": { "buildTarget": "stores-api:build" }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": { "lintFilePatterns": ["apps/stores-api/**/*.ts"] }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/stores-api"],
+          "options": {
+            "jestConfig": "apps/stores-api/jest.config.js",
             "passWithNoTests": true
           }
         }
