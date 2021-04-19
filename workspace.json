@@ -252,6 +252,18 @@
             "passWithNoTests": true
           }
         }
+      },
+      "architect": {
+        "generate-schema-types": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "yarn graphql-codegen --config apps/stores-api/codegen.yml"
+              }
+            ]
+          }
+        }
       }
     }
   }

@@ -1,24 +1,6 @@
 import { ApolloServer, gql } from "apollo-server";
 import { v4 as uuid } from "uuid";
-
-enum Unit {
-  NUMBER,
-  GRAMS,
-}
-
-interface StoresItem {
-  id: string;
-  name: string;
-  amount: number;
-  unit: Unit;
-}
-
-interface RemoveStoresItemPayload {
-  removed: boolean;
-  totalBefore: number;
-  totalAfter: number;
-  storesItem: StoresItem;
-}
+import { RemoveStoresItemPayload, StoresItem } from "./app/schema";
 
 let storesItems: StoresItem[] = [];
 

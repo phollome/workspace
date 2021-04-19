@@ -1,0 +1,38 @@
+enum Unit {
+  NUMBER
+  GRAMS
+}
+
+type StoresItem {
+  id: ID!
+  name: String!
+  amount: Int!
+  unit: Unit!
+}
+
+type RemoveStoresItemPayload {
+  removed: Boolean
+  totalBefore: Int
+  totalAfter: Int
+  storesItem: StoresItem
+}
+
+type Query {
+  "total number of stores items"
+  totalStoresItems: Int
+  "all stores items"
+  allStoresItems: [StoresItem]
+}
+
+input StoresItemInput {
+  name: String!
+  amount: Int
+  unit: Unit!
+}
+
+type Mutation {
+  "add stores item"
+  addStoresItem(input: StoresItemInput): StoresItem
+  "remove stores item by id"
+  removeStoresItem(id: ID!): RemoveStoresItemPayload
+}
