@@ -1,49 +1,11 @@
-import { ApolloServer, gql } from "apollo-server";
+import { GraphQLFileLoader } from "@graphql-tools/graphql-file-loader";
+import { loadSchema } from "@graphql-tools/load";
+import { addResolversToSchema } from "@graphql-tools/schema";
+import { ApolloServer } from "apollo-server";
 import { v4 as uuid } from "uuid";
 import { RemoveStoresItemPayload, StoresItem } from "./app/schema";
 
 let storesItems: StoresItem[] = [];
-
-const typeDefs = gql`
-  enum Unit {
-    NUMBER
-    GRAMS
-  }
-
-  type StoresItem {
-    id: ID!
-    name: String!
-    amount: Int!
-    unit: Unit!
-  }
-
-  type RemoveStoresItemPayload {
-    removed: Boolean
-    totalBefore: Int
-    totalAfter: Int
-    storesItem: StoresItem
-  }
-
-  type Query {
-    "total number of stores items"
-    totalStoresItems: Int
-    "all stores items"
-    allStoresItems: [StoresItem]
-  }
-
-  input StoresItemInput {
-    name: String!
-    amount: Int
-    unit: Unit!
-  }
-
-  type Mutation {
-    "add stores item"
-    addStoresItem(input: StoresItemInput): StoresItem
-    "remove stores item by id"
-    removeStoresItem(id: ID!): RemoveStoresItemPayload
-  }
-`;
 
 const resolvers = {
   Query: {
@@ -83,13 +45,18 @@ const resolvers = {
   },
 };
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-});
-
 async function main() {
   try {
+    const schema = await loadSchema("./apps/stores-api/src/app/schema.gql", {
+      loaders: [new GraphQLFileLoader()],
+    });
+
+    const schemaWithResolvers = addResolversToSchema({ schema, resolvers });
+
+    const server = new ApolloServer({
+      schema: schemaWithResolvers,
+    });
+
     const serverInfo = await server.listen();
     console.log(`Server running. Check out ${serverInfo.url}`);
   } catch (err) {

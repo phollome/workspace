@@ -251,9 +251,7 @@
             "jestConfig": "apps/stores-api/jest.config.js",
             "passWithNoTests": true
           }
-        }
-      },
-      "architect": {
+        },
         "generate-schema-types": {
           "builder": "@nrwl/workspace:run-commands",
           "options": {
