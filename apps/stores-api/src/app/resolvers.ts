@@ -1,5 +1,15 @@
 import { v4 as uuid } from "uuid";
-import { RemoveStoresItemPayload, StoresItem } from "./schema";
+import { RemoveStoresItemPayload, Scalars, StoresItem, Unit } from "./schema";
+
+export interface AddStoresItemInput {
+  name: string;
+  amount?: number;
+  unit: Unit;
+}
+
+export interface RemoveStoresItemProps {
+  id: Scalars["ID"];
+}
 
 let storesItems: StoresItem[] = [];
 
@@ -9,7 +19,10 @@ const resolvers = {
     allStoresItems: () => storesItems,
   },
   Mutation: {
-    addStoresItem: (parent, props): StoresItem => {
+    addStoresItem: (
+      parent,
+      props: { input: AddStoresItemInput }
+    ): StoresItem => {
       const { name, amount = 0, unit } = props.input;
       const id = uuid();
       const item = {
@@ -21,7 +34,10 @@ const resolvers = {
       storesItems = [...storesItems, item];
       return item;
     },
-    removeStoresItem: (parent, props): RemoveStoresItemPayload => {
+    removeStoresItem: (
+      parent,
+      props: RemoveStoresItemProps
+    ): RemoveStoresItemPayload => {
       const totalBefore = storesItems.length;
       let removed = false;
 
