@@ -16,7 +16,7 @@ async function main() {
       schema: schemaWithResolvers,
     });
 
-    const serverInfo = await server.listen();
+    const serverInfo = await server.listen({ port: process.env.PORT || 4200 });
     console.log(`Server running. Check out ${serverInfo.url}`);
   } catch (err) {
     console.error(err);
