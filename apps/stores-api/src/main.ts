@@ -7,7 +7,7 @@ import resolvers from "./app/resolvers";
 
 async function main() {
   try {
-    await connect();
+    const database = await connect();
 
     const schema = await loadSchema("./apps/stores-api/src/app/schema.gql", {
       loaders: [new GraphQLFileLoader()],
@@ -17,6 +17,7 @@ async function main() {
 
     const server = new ApolloServer({
       schema: schemaWithResolvers,
+      context: { database },
     });
 
     const serverInfo = await server.listen({ port: process.env.PORT || 4200 });

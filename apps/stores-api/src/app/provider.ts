@@ -3,7 +3,7 @@ import { Collection, Db, MongoClient } from "mongodb";
 let client: MongoClient;
 let database: Db;
 
-export async function connect(): Promise<void> {
+export async function connect(): Promise<Db> {
   client = new MongoClient(process.env.MONGODB_URL, {
     useUnifiedTopology: true,
   });
@@ -12,6 +12,7 @@ export async function connect(): Promise<void> {
   console.log(
     `mongodb client connected (url: ${process.env.MONGODB_URL}, database: ${process.env.MONGODB_DATABASE})`
   );
+  return database;
 }
 
 export async function getDatabase(): Promise<Db> {
