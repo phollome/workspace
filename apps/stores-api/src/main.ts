@@ -2,10 +2,13 @@ import { GraphQLFileLoader } from "@graphql-tools/graphql-file-loader";
 import { loadSchema } from "@graphql-tools/load";
 import { addResolversToSchema } from "@graphql-tools/schema";
 import { ApolloServer } from "apollo-server";
+import { connect } from "./app/provider";
 import resolvers from "./app/resolvers";
 
 async function main() {
   try {
+    await connect();
+
     const schema = await loadSchema("./apps/stores-api/src/app/schema.gql", {
       loaders: [new GraphQLFileLoader()],
     });

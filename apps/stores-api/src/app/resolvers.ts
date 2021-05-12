@@ -1,4 +1,5 @@
 import { v4 as uuid } from "uuid";
+import { getCollection } from "./provider";
 import { RemoveStoresItemPayload, Scalars, StoresItem, Unit } from "./schema";
 
 export interface AddStoresItemInput {
@@ -15,7 +16,11 @@ let storesItems: StoresItem[] = [];
 
 const resolvers = {
   Query: {
-    totalStoresItems: () => storesItems.length,
+    totalStoresItems: async () => {
+      const collection = await getCollection("stores-items");
+      const total = await collection.countDocuments();
+      return total;
+    },
     allStoresItems: () => storesItems,
   },
   Mutation: {
