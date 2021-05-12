@@ -27,8 +27,8 @@
     "postversion": "npm run affected:build -- --base=main",
     "publish:libs": "lerna publish",
     "heroku-postbuild": "./tools/plugins/heroku/postbuild/postbuild.sh",
-    "heroku:stores-api:build": "yarn nx run stores-api:generate-schema-types",
-    "heroku:stores-api:serve": "export NODE_OPTIONS=--max_old_space_size=460 && yarn nx serve stores-api"
+    "heroku:stores-api:build": "yarn nx run stores-api:generate-schema-types && yarn nx build stores-api",
+    "heroku:stores-api:serve": "node dist/apps/stores-api/main.js"
   },
   "config": {
     "commitizen": {
