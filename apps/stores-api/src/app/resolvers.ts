@@ -1,5 +1,4 @@
-import { Db } from "mongodb";
-import { v4 as uuid } from "uuid";
+import { Db, ObjectId } from "mongodb";
 import { RemoveStoresItemPayload, Scalars, StoresItem, Unit } from "./schema";
 
 export interface Context {
@@ -13,7 +12,7 @@ export interface AddStoresItemInput {
 }
 
 export interface RemoveStoresItemProps {
-  id: Scalars["ID"];
+  _id: Scalars["ID"];
 }
 
 const resolvers = {
@@ -59,7 +58,7 @@ const resolvers = {
       const { insertedId } = await collection.insertOne({ name, amount, unit });
 
       const item = {
-        id: insertedId,
+        _id: insertedId,
         name,
         amount,
         unit,
@@ -75,9 +74,12 @@ const resolvers = {
       const collection = await database.collection("stores-items");
 
       const totalBefore = await collection.countDocuments();
+
       let removed = false;
 
-      const { value } = await collection.findOneAndDelete({ _id: args.id });
+      const { value } = await collection.findOneAndDelete({
+        _id: new ObjectId(args._id),
+      });
 
       if (value !== null) {
         removed = true;

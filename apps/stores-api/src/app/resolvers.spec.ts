@@ -1,4 +1,4 @@
-import { v4 as uuid } from "uuid";
+import { ObjectID } from "mongodb";
 import resolvers, { AddStoresItemInput } from "./resolvers";
 import { RemoveStoresItemPayload, Unit } from "./schema";
 
@@ -56,19 +56,22 @@ test("add and remove stores item", async () => {
   });
   const insertOneMock = jest.fn(async (doc) => {
     const { name, amount = 0, unit } = doc;
-    const id = uuid();
+    const _id = new ObjectID().toString();
     const item = {
-      id,
+      _id,
       name,
       amount,
       unit,
     };
     storesItems = [...storesItems, item];
-    return { insertedId: id };
+    return { insertedId: _id };
   });
   const findOneAndDeleteMock = jest.fn(async (query) => {
-    const storesItem = storesItems.find((item) => item.id === query._id);
-    storesItems = storesItems.filter((item) => item.id !== query._id);
+    const parsedId = query._id.toString();
+
+    const storesItem = storesItems.find((item) => item._id === parsedId);
+    storesItems = storesItems.filter((item) => item._id !== parsedId);
+
     return { value: storesItem };
   });
 
@@ -104,7 +107,7 @@ test("add and remove stores item", async () => {
 
   const payload: RemoveStoresItemPayload = await resolvers.Mutation.removeStoresItem(
     {},
-    { id: item.id },
+    { _id: item._id },
     { database: databaseMock }
   );
 

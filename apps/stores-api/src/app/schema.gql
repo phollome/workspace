@@ -4,7 +4,7 @@ enum Unit {
 }
 
 type StoresItem {
-  id: ID!
+  _id: ID!
   name: String!
   amount: Int!
   unit: Unit!
@@ -33,6 +33,6 @@ input StoresItemInput {
 type Mutation {
   "add stores item"
   addStoresItem(input: StoresItemInput): StoresItem
-  "remove stores item by id"
-  removeStoresItem(id: ID!): RemoveStoresItemPayload
+  "remove stores item by _id"
+  removeStoresItem(_id: ID!): RemoveStoresItemPayload
 }
