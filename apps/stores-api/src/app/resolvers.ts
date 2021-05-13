@@ -30,13 +30,7 @@ const resolvers = {
 
       const collection = await database.collection("stores-items");
 
-      const items = collection
-        .find()
-        .map((item) => {
-          const { _id: id, ...otherProps } = item;
-          return { id, ...otherProps };
-        })
-        .toArray();
+      const items = await collection.find().toArray();
       return items;
     },
   },

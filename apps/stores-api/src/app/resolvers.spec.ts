@@ -34,7 +34,7 @@ test("get number of stores items", async () => {
 
 test("get all stores items", async () => {
   const findMock = jest.fn(() => {
-    return { map: () => ({ toArray: () => [] }) };
+    return { toArray: async () => [] };
   });
 
   const databaseMock: any = {
