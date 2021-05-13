@@ -83,10 +83,12 @@ const resolvers = {
         removed = true;
       }
 
+      const totalAfter = removed ? totalBefore - 1 : totalBefore;
+
       return {
         removed,
         totalBefore,
-        totalAfter: totalBefore - 1,
+        totalAfter: totalAfter,
         storesItem: value,
       };
     },
