@@ -11,9 +11,9 @@ type StoresItem {
 }
 
 type RemoveStoresItemPayload {
-  removed: Boolean
-  totalBefore: Int
-  totalAfter: Int
+  removed: Boolean!
+  totalBefore: Int!
+  totalAfter: Int!
   storesItem: StoresItem
 }
 
@@ -24,7 +24,7 @@ type Query {
   allStoresItems: [StoresItem]
 }
 
-input StoresItemInput {
+input AddStoresItemInput {
   name: String!
   amount: Int
   unit: Unit!
@@ -32,7 +32,7 @@ input StoresItemInput {
 
 type Mutation {
   "add stores item"
-  addStoresItem(input: StoresItemInput): StoresItem
+  addStoresItem(input: AddStoresItemInput): StoresItem
   "remove stores item by _id"
   removeStoresItem(_id: ID!): RemoveStoresItemPayload
 }

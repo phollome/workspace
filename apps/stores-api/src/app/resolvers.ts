@@ -1,18 +1,12 @@
 import { Db, ObjectId } from "mongodb";
-import { RemoveStoresItemPayload, Scalars, StoresItem, Unit } from "./schema";
-
+import {
+  AddStoresItemInput,
+  RemoveStoresItemPayload,
+  Scalars,
+  StoresItem,
+} from "./schema";
 export interface Context {
   database: Db;
-}
-
-export interface AddStoresItemInput {
-  name: string;
-  amount?: number;
-  unit: Unit;
-}
-
-export interface RemoveStoresItemProps {
-  _id: Scalars["ID"];
 }
 
 const resolvers = {
@@ -67,7 +61,7 @@ const resolvers = {
     },
     removeStoresItem: async (
       _,
-      args: RemoveStoresItemProps,
+      args: { _id: Scalars["ID"] },
       context: Context
     ): Promise<RemoveStoresItemPayload> => {
       const { database } = context;

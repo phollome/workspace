@@ -1,6 +1,6 @@
 import { ObjectID } from "mongodb";
-import resolvers, { AddStoresItemInput } from "./resolvers";
-import { RemoveStoresItemPayload, Unit } from "./schema";
+import resolvers from "./resolvers";
+import { AddStoresItemInput, RemoveStoresItemPayload, Unit } from "./schema";
 
 // TODO: replace "any" from database mocks
 
