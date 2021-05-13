@@ -9,9 +9,7 @@ export async function connect(): Promise<Db> {
   });
   await client.connect();
   database = client.db(process.env.MONGODB_DATABASE);
-  console.log(
-    `mongodb client connected (url: ${process.env.MONGODB_URL}, database: ${process.env.MONGODB_DATABASE})`
-  );
+  console.log("mongodb client connected");
   return database;
 }
 
