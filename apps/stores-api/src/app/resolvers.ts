@@ -4,6 +4,8 @@ import {
   RemoveStoresItemPayload,
   Scalars,
   StoresItem,
+  UpdateStoresItemInput,
+  UpdateStoresItemPayload,
 } from "./schema";
 export interface Context {
   database: Db;
@@ -58,6 +60,30 @@ const resolvers = {
         unit,
       };
       return item;
+    },
+    updateStoresItem: async (
+      _,
+      args: { _id: Scalars["ID"]; input: UpdateStoresItemInput },
+      context: Context
+    ): Promise<UpdateStoresItemPayload> => {
+      const { _id, input } = args;
+      const { database } = context;
+
+      const collection = await database.collection("stores-items");
+
+      const { value, ok } = await collection.findOneAndUpdate(
+        { _id: new ObjectId(_id) },
+        { $set: input }
+      );
+
+      if (ok === 1 && value !== null) {
+        return {
+          updated: true,
+          storesItem: { ...value, ...input },
+        };
+      }
+
+      return { updated: false };
     },
     removeStoresItem: async (
       _,

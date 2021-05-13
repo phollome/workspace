@@ -17,6 +17,11 @@ type RemoveStoresItemPayload {
   storesItem: StoresItem
 }
 
+type UpdateStoresItemPayload {
+  updated: Boolean!
+  storesItem: StoresItem
+}
+
 type Query {
   "total number of stores items"
   totalStoresItems: Int
@@ -30,9 +35,20 @@ input AddStoresItemInput {
   unit: Unit!
 }
 
+input UpdateStoresItemInput {
+  name: String
+  amount: Int
+  unit: Unit
+}
+
 type Mutation {
   "add stores item"
   addStoresItem(input: AddStoresItemInput): StoresItem
-  "remove stores item by _id"
+  "update stores item"
+  updateStoresItem(
+    _id: ID!
+    input: UpdateStoresItemInput!
+  ): UpdateStoresItemPayload
+  "remove stores item"
   removeStoresItem(_id: ID!): RemoveStoresItemPayload
 }
