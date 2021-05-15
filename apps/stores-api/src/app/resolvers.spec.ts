@@ -11,47 +11,93 @@ import {
 // TODO: replace "any" from database mocks
 
 test("get number of stores items", async () => {
-  const countDocumentsMock = jest.fn(async () => 0);
+  let storesItems = [];
+
+  const countDocumentsMock = jest.fn(async () => storesItems.length);
+  const insertOneMock = jest.fn(async (doc) => {
+    const { name, unit } = doc;
+    const _id = new ObjectID().toString();
+    const item = {
+      _id,
+      name,
+      unit,
+    };
+    storesItems = [...storesItems, item];
+    return { insertedId: _id };
+  });
 
   const databaseMock: any = {
     collection: async () => {
       return {
         countDocuments: countDocumentsMock,
+        insertOne: insertOneMock,
       };
     },
   };
 
-  const result = await resolvers.Query.totalStoresItems(
+  expect(
+    await resolvers.Query.totalStoresItems({}, {}, { database: databaseMock })
+  ).toBe(0);
+
+  await resolvers.Mutation.addStoresItem(
     {},
-    {},
+    { input: { name: "Test", unit: Unit.Piece } },
     { database: databaseMock }
   );
 
-  expect(result).toBe(0);
+  expect(
+    await resolvers.Query.totalStoresItems({}, {}, { database: databaseMock })
+  ).toBe(1);
 
-  expect(countDocumentsMock).toHaveBeenCalledTimes(1);
+  // check if mock used correctly
+  expect(insertOneMock).toHaveBeenCalledTimes(1);
+  expect(countDocumentsMock).toHaveBeenCalledTimes(2);
 });
 
 test("get all stores items", async () => {
+  let storesItems = [];
+
   const findMock = jest.fn(() => {
-    return { toArray: async () => [] };
+    return { toArray: async () => storesItems };
+  });
+  const insertOneMock = jest.fn(async (doc) => {
+    const { name, unit } = doc;
+    const _id = new ObjectID().toString();
+    const item = {
+      _id,
+      name,
+      unit,
+    };
+    storesItems = [...storesItems, item];
+    return { insertedId: _id };
   });
 
   const databaseMock: any = {
     collection: async () => ({
       find: findMock,
+      insertOne: insertOneMock,
     }),
   };
 
-  const result = await resolvers.Query.allStoresItems(
+  expect(
+    (await resolvers.Query.allStoresItems({}, {}, { database: databaseMock }))
+      .length
+  ).toBe(0);
+
+  await resolvers.Mutation.addStoresItem(
     {},
-    {},
+    { input: { name: "Test", unit: Unit.Piece } },
     { database: databaseMock }
   );
 
-  expect(result.length).toBe(0);
+  expect(
+    (await resolvers.Query.allStoresItems({}, {}, { database: databaseMock }))
+      .length
+  ).toBe(1);
 
-  expect(findMock).toHaveBeenCalledTimes(1);
+  // check if mock used correctly
+  expect(insertOneMock).toHaveBeenCalledTimes(1);
+  expect(findMock).toHaveBeenCalledTimes(2);
 });
 
 test("add, update and remove stores item", async () => {
