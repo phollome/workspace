@@ -1,13 +1,28 @@
+directive @deprecated(
+  reason: String = "No longer supported"
+) on FIELD_DEFINITION | ENUM_VALUE
+
+scalar Date
+
 enum Unit {
-  NUMBER
+  NUMBER @deprecated(reason: "differentiate between 'count' and 'amount'")
   GRAMS
+  KILOGRAMS
+  MILLILITER
+  LITER
+  PIECE
 }
 
 type StoresItem {
   _id: ID!
   name: String!
-  amount: Int!
+  "number of items in stock"
+  count: Int
+  "amount related to unit"
+  amount: Float
+  bestBeforeDates: [Date]
   unit: Unit!
+  tags: [String]
 }
 
 type RemoveStoresItemPayload {
@@ -31,14 +46,20 @@ type Query {
 
 input AddStoresItemInput {
   name: String!
+  count: Int
   amount: Int
+  bestBeforeDates: [Date]
   unit: Unit!
+  tags: [String]
 }
 
 input UpdateStoresItemInput {
   name: String
+  count: Int
   amount: Int
+  bestBeforeDates: [Date]
   unit: Unit
+  tags: [String]
 }
 
 type Mutation {

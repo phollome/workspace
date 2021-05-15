@@ -40,18 +40,16 @@ const resolvers = {
       args: { input: AddStoresItemInput },
       context: Context
     ): Promise<StoresItem> => {
-      const { name, amount = 0, unit } = args.input;
+      const { input } = args;
       const { database } = context;
 
       const collection = await database.collection("stores-items");
 
-      const { insertedId } = await collection.insertOne({ name, amount, unit });
+      const { insertedId } = await collection.insertOne(input);
 
       const item = {
         _id: insertedId,
-        name,
-        amount,
-        unit,
+        ...input,
       };
       return item;
     },
