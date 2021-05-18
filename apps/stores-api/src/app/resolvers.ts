@@ -1,6 +1,7 @@
 import { Db, ObjectId } from "mongodb";
 import {
   AddStoresItemInput,
+  FilterStoresItemsInput,
   RemoveStoresItemPayload,
   Scalars,
   StoresItem,
@@ -32,6 +33,29 @@ const resolvers = {
 
       const items = await collection.find().toArray();
       return items;
+    },
+    getStoresItems: async (
+      _,
+      args: { input: FilterStoresItemsInput },
+      context: Context
+    ) => {
+      const { database } = context;
+      const { input } = args;
+
+      const collection = await database.collection("stores-items");
+
+      const shouldApplyFilter =
+        typeof input.filterString === "string" && input.filterString.length > 3;
+
+      const cursor = shouldApplyFilter
+        ? await collection
+            .find({
+              $text: { $search: `"${input.filterString}"` },
+            })
+            .sort({ score: { $meta: "textScore" } })
+        : await collection.find();
+
+      return cursor.toArray();
     },
   },
   Mutation: {

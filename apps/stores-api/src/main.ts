@@ -9,6 +9,15 @@ async function main() {
   try {
     const database = await connect();
 
+    const storesItemsCollection = await database.collection("stores-items");
+    await storesItemsCollection.createIndex(
+      {
+        name: "text",
+        tags: "text",
+      },
+      { default_language: "german" }
+    );
+
     const schema = await loadSchema("./apps/stores-api/src/app/schema.gql", {
       loaders: [new GraphQLFileLoader()],
     });

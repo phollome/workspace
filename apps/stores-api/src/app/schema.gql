@@ -41,7 +41,9 @@ type Query {
   "total number of stores items"
   totalStoresItems: Int
   "all stores items"
-  allStoresItems: [StoresItem]
+  allStoresItems: [StoresItem] @deprecated(reason: "use getStoresItems")
+  "get items (optional with filter)"
+  getStoresItems(input: FilterStoresItemsInput): [StoresItem]
 }
 
 input AddStoresItemInput {
@@ -60,6 +62,10 @@ input UpdateStoresItemInput {
   bestBeforeDates: [Date]
   unit: Unit
   tags: [String]
+}
+
+input FilterStoresItemsInput {
+  filterString: String
 }
 
 type Mutation {

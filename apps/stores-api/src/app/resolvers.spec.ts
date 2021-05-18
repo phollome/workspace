@@ -80,8 +80,13 @@ test("get all stores items", async () => {
   };
 
   expect(
-    (await resolvers.Query.allStoresItems({}, {}, { database: databaseMock }))
-      .length
+    (
+      await resolvers.Query.getStoresItems(
+        {},
+        { input: {} },
+        { database: databaseMock }
+      )
+    ).length
   ).toBe(0);
 
   await resolvers.Mutation.addStoresItem(
@@ -91,8 +96,13 @@ test("get all stores items", async () => {
   );
 
   expect(
-    (await resolvers.Query.allStoresItems({}, {}, { database: databaseMock }))
-      .length
+    (
+      await resolvers.Query.getStoresItems(
+        {},
+        { input: {} },
+        { database: databaseMock }
+      )
+    ).length
   ).toBe(1);
 
   // check if mock used correctly
