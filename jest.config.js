@@ -4,5 +4,6 @@ module.exports = {
     "<rootDir>/libs/react-components",
     "<rootDir>/apps/wfa-list-of-literature",
     "<rootDir>/apps/stores-api",
+    "<rootDir>/apps/stores",
   ],
 };

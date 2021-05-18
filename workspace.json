@@ -1,12 +1,23 @@
 {
   "version": 2,
-  "cli": { "defaultCollection": "@nrwl/react" },
+  "cli": {
+    "defaultCollection": "@nrwl/react"
+  },
   "defaultProject": "wfa-list-of-literature",
   "generators": {
     "@nrwl/react": {
-      "application": { "style": "css", "linter": "eslint", "babel": true },
-      "component": { "style": "css" },
-      "library": { "style": "css", "linter": "eslint" }
+      "application": {
+        "style": "css",
+        "linter": "eslint",
+        "babel": true
+      },
+      "component": {
+        "style": "css"
+      },
+      "library": {
+        "style": "css",
+        "linter": "eslint"
+      }
     }
   },
   "projects": {
@@ -95,9 +106,15 @@
           "options": {
             "uiFramework": "@storybook/react",
             "port": 4400,
-            "config": { "configFolder": "libs/react-components/.storybook" }
+            "config": {
+              "configFolder": "libs/react-components/.storybook"
+            }
           },
-          "configurations": { "ci": { "quiet": true } }
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
         },
         "build-storybook": {
           "executor": "@nrwl/storybook:build",
@@ -105,9 +122,15 @@
           "options": {
             "uiFramework": "@storybook/react",
             "outputPath": "dist/storybook/react-components",
-            "config": { "configFolder": "libs/react-components/.storybook" }
+            "config": {
+              "configFolder": "libs/react-components/.storybook"
+            }
           },
-          "configurations": { "ci": { "quiet": true } }
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
         }
       }
     },
@@ -183,7 +206,9 @@
         },
         "serve": {
           "executor": "@nrwl/web:dev-server",
-          "options": { "buildTarget": "wfa-list-of-literature:build" },
+          "options": {
+            "buildTarget": "wfa-list-of-literature:build"
+          },
           "configurations": {
             "production": {
               "buildTarget": "wfa-list-of-literature:build:production"
@@ -238,11 +263,15 @@
         },
         "serve": {
           "executor": "@nrwl/node:execute",
-          "options": { "buildTarget": "stores-api:build" }
+          "options": {
+            "buildTarget": "stores-api:build"
+          }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": { "lintFilePatterns": ["apps/stores-api/**/*.ts"] }
+          "options": {
+            "lintFilePatterns": ["apps/stores-api/**/*.ts"]
+          }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
@@ -253,13 +282,84 @@
           }
         },
         "generate-schema-types": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
               {
                 "command": "yarn graphql-codegen --config apps/stores-api/codegen.yml"
               }
             ]
+          }
+        }
+      }
+    },
+    "stores": {
+      "root": "apps/stores",
+      "sourceRoot": "apps/stores/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/stores",
+            "index": "apps/stores/src/index.html",
+            "main": "apps/stores/src/main.tsx",
+            "polyfills": "apps/stores/src/polyfills.ts",
+            "tsConfig": "apps/stores/tsconfig.app.json",
+            "assets": ["apps/stores/src/favicon.ico", "apps/stores/src/assets"],
+            "styles": ["apps/stores/src/styles.css"],
+            "scripts": [],
+            "webpackConfig": "@nrwl/react/plugins/webpack"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/stores/src/environments/environment.ts",
+                  "with": "apps/stores/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/web:dev-server",
+          "options": {
+            "buildTarget": "stores:build"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "stores:build:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/stores/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/stores"],
+          "options": {
+            "jestConfig": "apps/stores/jest.config.js",
+            "passWithNoTests": true
           }
         }
       }

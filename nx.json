@@ -1,13 +1,18 @@
 {
   "implicitDependencies": {
     "workspace.json": "*",
-    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
     "tsconfig.base.json": "*",
     "tslint.json": "*",
     ".eslintrc.json": "*",
     "nx.json": "*"
   },
-  "affected": { "defaultBase": "master" },
+  "affected": {
+    "defaultBase": "master"
+  },
   "npmScope": "phollome",
   "tasksRunnerOptions": {
     "default": {
@@ -24,10 +29,23 @@
     }
   },
   "projects": {
-    "react-hooks": { "tags": ["scope:public"] },
-    "react-components": { "tags": [] },
-    "tailwind-styles": { "tags": [] },
-    "wfa-list-of-literature": { "tags": [] },
-    "stores-api": { "tags": [] }
+    "react-hooks": {
+      "tags": ["scope:public"]
+    },
+    "react-components": {
+      "tags": []
+    },
+    "tailwind-styles": {
+      "tags": []
+    },
+    "wfa-list-of-literature": {
+      "tags": []
+    },
+    "stores-api": {
+      "tags": []
+    },
+    "stores": {
+      "tags": []
+    }
   }
 }
