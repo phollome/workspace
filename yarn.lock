@@ -3108,7 +3108,7 @@
     tmp "~0.2.1"
     tslib "^2.0.0"
 
-"@nrwl/node@^12.0.7":
+"@nrwl/node@12.0.7":
   version "12.0.7"
   resolved "https://registry.yarnpkg.com/@nrwl/node/-/node-12.0.7.tgz#a790281a42da20077096b04bfa3d386a55d20dbf"
   integrity sha512-IQTRpnamBrF21q7FaxmbcLZy741cEnIg5CQyFLbFhjlxRhiOFHcxUSgk3Np63e1hxH6Op7Jj7H7ZnK+8JkCLbQ==

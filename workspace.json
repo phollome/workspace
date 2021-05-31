@@ -1,23 +1,12 @@
 {
   "version": 2,
-  "cli": {
-    "defaultCollection": "@nrwl/react"
-  },
+  "cli": { "defaultCollection": "@nrwl/react" },
   "defaultProject": "wfa-list-of-literature",
   "generators": {
     "@nrwl/react": {
-      "application": {
-        "style": "css",
-        "linter": "eslint",
-        "babel": true
-      },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
+      "application": { "style": "css", "linter": "eslint", "babel": true },
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "eslint" }
     }
   },
   "projects": {
@@ -106,15 +95,9 @@
           "options": {
             "uiFramework": "@storybook/react",
             "port": 4400,
-            "config": {
-              "configFolder": "libs/react-components/.storybook"
-            }
+            "config": { "configFolder": "libs/react-components/.storybook" }
           },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
+          "configurations": { "ci": { "quiet": true } }
         },
         "build-storybook": {
           "executor": "@nrwl/storybook:build",
@@ -122,15 +105,9 @@
           "options": {
             "uiFramework": "@storybook/react",
             "outputPath": "dist/storybook/react-components",
-            "config": {
-              "configFolder": "libs/react-components/.storybook"
-            }
+            "config": { "configFolder": "libs/react-components/.storybook" }
           },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
+          "configurations": { "ci": { "quiet": true } }
         }
       }
     },
@@ -206,9 +183,7 @@
         },
         "serve": {
           "executor": "@nrwl/web:dev-server",
-          "options": {
-            "buildTarget": "wfa-list-of-literature:build"
-          },
+          "options": { "buildTarget": "wfa-list-of-literature:build" },
           "configurations": {
             "production": {
               "buildTarget": "wfa-list-of-literature:build:production"
@@ -263,15 +238,11 @@
         },
         "serve": {
           "executor": "@nrwl/node:execute",
-          "options": {
-            "buildTarget": "stores-api:build"
-          }
+          "options": { "buildTarget": "stores-api:build" }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": ["apps/stores-api/**/*.ts"]
-          }
+          "options": { "lintFilePatterns": ["apps/stores-api/**/*.ts"] }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
@@ -339,13 +310,9 @@
         },
         "serve": {
           "executor": "@nrwl/web:dev-server",
-          "options": {
-            "buildTarget": "stores:build"
-          },
+          "options": { "buildTarget": "stores:build" },
           "configurations": {
-            "production": {
-              "buildTarget": "stores:build:production"
-            }
+            "production": { "buildTarget": "stores:build:production" }
           }
         },
         "lint": {
@@ -359,6 +326,54 @@
           "outputs": ["coverage/apps/stores"],
           "options": {
             "jestConfig": "apps/stores/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "list-of-literature-api": {
+      "root": "apps/list-of-literature-api",
+      "sourceRoot": "apps/list-of-literature-api/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/list-of-literature-api",
+            "main": "apps/list-of-literature-api/src/main.ts",
+            "tsConfig": "apps/list-of-literature-api/tsconfig.app.json",
+            "assets": ["apps/list-of-literature-api/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/list-of-literature-api/src/environments/environment.ts",
+                  "with": "apps/list-of-literature-api/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:execute",
+          "options": { "buildTarget": "list-of-literature-api:build" }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/list-of-literature-api/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/list-of-literature-api"],
+          "options": {
+            "jestConfig": "apps/list-of-literature-api/jest.config.js",
             "passWithNoTests": true
           }
         }
