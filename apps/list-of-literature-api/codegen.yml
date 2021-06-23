@@ -1,0 +1,7 @@
+overwrite: true
+schema: "apps/list-of-literature-api/src/app/schema.gql"
+generates:
+  apps/list-of-literature-api/src/app/schema.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"

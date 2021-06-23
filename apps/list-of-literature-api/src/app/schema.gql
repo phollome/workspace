@@ -1,0 +1,27 @@
+interface Reference {
+  _id: ID!
+  author: String
+  title: String!
+}
+
+type Book implements Reference {
+  _id: ID!
+  author: String
+  title: String!
+  href: String
+  publisher: String
+  numberOfPages: Int
+  isbn: String
+}
+
+type Online implements Reference {
+  _id: ID!
+  author: String
+  title: String!
+  href: String
+  publisher: String
+}
+
+type Query {
+  getReferences: [Reference]
+}

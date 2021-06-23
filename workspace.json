@@ -376,6 +376,16 @@
             "jestConfig": "apps/list-of-literature-api/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "generate-schema-types": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "yarn graphql-codegen --config apps/list-of-literature-api/codegen.yml"
+              }
+            ]
+          }
         }
       }
     }
