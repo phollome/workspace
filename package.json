@@ -28,7 +28,8 @@
     "publish:libs": "lerna publish",
     "heroku-postbuild": "./tools/plugins/heroku/postbuild/postbuild.sh",
     "heroku:stores-api:build": "yarn nx run stores-api:generate-schema-types && yarn nx build stores-api",
-    "heroku:stores-api:serve": "node dist/apps/stores-api/main.js"
+    "heroku:stores-api:serve": "node dist/apps/stores-api/main.js",
+    "commit": "cz"
   },
   "config": {
     "commitizen": {
@@ -41,6 +42,7 @@
     "@graphql-tools/schema": "^7.1.3",
     "@nrwl/workspace": "11.4.0",
     "apollo-server": "^2.23.0",
+    "commitizen": "^4.2.4",
     "core-js": "^3.6.5",
     "document-register-element": "1.13.1",
     "graphql": "^15.5.0",
