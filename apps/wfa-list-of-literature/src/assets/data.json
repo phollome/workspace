@@ -3,6 +3,41 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Karl Marx #8: Die ursprüngliche Akkumulation - WOHLSTAND FÜR ALLE Ep. 107",
+      "pubDate": "2021-08-25T04:30:00Z",
+      "href": "https://www.youtube.com/watch?v=A7DssWog3Mk",
+      "description": "",
+      "references": [
+        {
+          "author": "Karl Marx",
+          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "item": "Karl Marx: Das Kapital, Bd. 1, MEW 23, Dietz.",
+          "publisher": "Karl Dietz Verlag Berlin"
+        },
+        {
+          "author": "Katharina Pistor",
+          "title": "Der Code des Kapitals. Wie das Recht Reichtum und Ungleichheit schafft",
+          "item": "Katharina Pistor: Der Code des Kapitals. Wie das Recht Reichtum und Ungleichheit schafft, Suhrkamp.",
+          "publisher": "Suhrkamp"
+        }
+      ]
+    },
+    {
+      "title": "Wahl 2021: Das CDU-Programm - WOHLSTAND FÜR ALLE Ep. 106",
+      "pubDate": "2021-08-18T04:30:00Z",
+      "href": "https://www.youtube.com/watch?v=ln-mlamlqGU",
+      "description": "",
+      "references": [
+        {
+          "author": "CDU/CSU",
+          "title": "Regierungsprogramm",
+          "href": "https://www.csu.de/common/download/Regierungsprogramm.pdf",
+          "item": "CDU/CSU: Regierungsprogramm, online verfügbar unter: https://www.csu.de/common/download/Re...",
+          "publisher": "csu.de"
+        }
+      ]
+    },
+    {
       "title": "Zurück in die Höhle mit Niko Paech - WOHLSTAND FÜR ALLE Ep. 105",
       "pubDate": "2021-08-11T04:30:07Z",
       "href": "https://www.youtube.com/watch?v=iPHiPvYCN78",
