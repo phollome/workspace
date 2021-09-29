@@ -3,6 +3,67 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Die protestantische Ethik und der Geist des Kapitalismus - WOHLSTAND FÜR ALLE Ep. 109",
+      "pubDate": "2021-09-08T04:30:00Z",
+      "href": "https://www.youtube.com/watch?v=vxKjil82VEA",
+      "description": "",
+      "references": [
+        {
+          "author": "Max Weber",
+          "title": "Die protestantische Ethik und der Geist des Kapitalismus / Die protestantischen Sekten und der Geist des Kapitalismus. Schriften 1904-1920. Max Weber-Studienausgabe Band I/18",
+          "item": "Max Weber: Die protestantische Ethik und der Geist des Kapitalismus/Die protestantischen Sekten und der Geist des Kapitalismus. Schriften 1904-1920. MWS I/18, Mohr Siebeck.",
+          "publisher": "Mohr Siebeck"
+        },
+        {
+          "author": "Jan Rehmann",
+          "title": "Max Weber. Modernisierung als passive Revolution",
+          "item": "Jan Rehmann: Max Weber. Modernisierung als passive Revolution, Argument.",
+          "publisher": "Argument"
+        },
+        {
+          "author": "Heinz Steinert",
+          "title": "Max Webers unwiderlegbare Fehlkonstruktionen. Die protestantische Ethik und der Geist des Kapitalismus",
+          "item": "Heinz Steinert: Max Webers unwiderlegbare Fehlkonstruktionen. Die protestantische Ethik und der Geist des Kapitalismus, Campus",
+          "publisher": "Campus"
+        }
+      ]
+    },
+    {
+      "title": "Wahl 2021: Das Grünen-Programm - WOHLSTAND FÜR ALLE Ep. 108",
+      "pubDate": "2021-09-01T04:30:00Z",
+      "href": "https://www.youtube.com/watch?v=pzql2nOIV9Y",
+      "description": "",
+      "references": [
+        {
+          "author": "Bündnis 90/Die Grünen",
+          "title": "Bundestagswahlprogramm",
+          "item": "Bündnis 90/Die Grünen: Bundestagswahlprogramm, online verfügbar unter: https://cms.gruene.de/uploads/documents/Wahlprogramm-DIE-GRUENEN-Bundestagswahl-2021_barrierefrei.pdf",
+          "href": "https://cms.gruene.de/uploads/documents/Wahlprogramm-DIE-GRUENEN-Bundestagswahl-2021_barrierefrei.pdf",
+          "publisher": "gruene.de"
+        }
+      ]
+    },
+    {
+      "title": "Thomas Mann: Buddenbrooks - Literatur #8",
+      "pubDate": "2021-08-28T04:30:00Z",
+      "href": "https://www.youtube.com/watch?v=V790I0oVtQY",
+      "description": "",
+      "references": [
+        {
+          "author": "Thomas Mann",
+          "title": "Buddenbrooks. Verfall einer Familie",
+          "item": "Thomas Mann: Buddenbrooks. Verfall einer Familie, Fischer.",
+          "publisher": "S. Fischer"
+        },
+        {
+          "author": "Thomas Mann",
+          "title": "\"Lübeck als geistige Lebensform\", in: Werke. Band XI. Reden und Aufsätze 3",
+          "item": "Thomas Mann: \"Lübeck als geistige Lebensform\", in: Werke. Band XI. Reden und Aufsätze 3, S. 376-398. ",
+          "publisher": "S. Fischer"
+        }
+      ]
+    },
+    {
       "title": "Karl Marx #8: Die ursprüngliche Akkumulation - WOHLSTAND FÜR ALLE Ep. 107",
       "pubDate": "2021-08-25T04:30:00Z",
       "href": "https://www.youtube.com/watch?v=A7DssWog3Mk",
