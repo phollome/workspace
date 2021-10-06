@@ -3,6 +3,33 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Brauchen wir ein Recht auf Faulheit? - WOHLSTAND FÜR ALLE Ep. 113",
+      "pubDate": "2021-10-06T04:30:00Z",
+      "href": "https://www.youtube.com/watch?v=YcgtMeZag7w",
+      "description": "",
+      "references": [
+        {
+          "author": "Aaron Benanav",
+          "title": "Automatisierung und die Zukunft der Arbeit",
+          "item": "Aaron Benanav: Automatisierung und die Zukunft der Arbeit, Suhrkamp.",
+          "publisher": "Suhrkamp"
+        },
+        {
+          "author": "Paul Lafargue",
+          "title": "Das Recht auf Faulheit",
+          "item": "Paul Lafargue: Das Recht auf Faulheit, Reclam.",
+          "publisher": "Reclam"
+        },
+        {
+          "author": "John Maynard Keynes",
+          "title": "Economic Possibilities for our Grandchildren",
+          "item": "John Maynard Keynes: “Economic Possibilities for our Grandchildren”, online verfügbar unter: http://www.econ.yale.edu/smith/econ11.... ",
+          "href": "http://www.econ.yale.edu/smith/econ116a/keynes1.pdf",
+          "publisher": "econ.yale.edu"
+        }
+      ]
+    },
+    {
       "title": "Marion Messina: Fehlstart - Literatur #9",
       "pubDate": "2021-09-25T04:30:00Z",
       "href": "https://www.youtube.com/watch?v=-rUPM1j9Wqo",
@@ -1439,7 +1466,7 @@
           "author": "Jörg Kronauer",
           "title": "Der Rivale. Chinas Aufstieg zur Weltmacht und die Gegenwehr des Westens",
           "item": "Jörg Kronauer: Der Rivale. Chinas Aufstieg zur Weltmacht und die Gegenwehr des Westens. Konkret Verlag.",
-          "publisher": "Konkret Verlag"
+          "publisher": "Konkret Texte"
         },
         {
           "author": "Felix Lee",
@@ -2579,7 +2606,7 @@
           "author": "John Maynard Keynes",
           "title": "Allgemeine Theorie der Beschäftigung, des Zinses und des Geldes",
           "item": "John Maynard Keynes: Allgemeine Theorie der Beschäftigung, des Zinses und des Geldes. Duncker und Humblot.",
-          "publisher": "Duncker und Humblot"
+          "publisher": "Duncker & Humblot"
         }
       ]
     },
