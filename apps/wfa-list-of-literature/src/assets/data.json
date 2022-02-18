@@ -3,6 +3,286 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 132: Marilyn Monroe und Preiskontrollen",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=l11pjgcpdHA",
+      "pubDate": "2022-02-16T17:10:09Z",
+      "references": [
+        {
+          "author": "Malte Fischer, Martin Fritz",
+          "title": "Japan und Schweiz: Gallische Dörfer gegen die Inflation",
+          "href": "https://www.wiwo.de/my/politik/konjunktur/stabile-preise-japan-und-schweiz-gallische-doerfer-gegen-die-inflation/27970024.html",
+          "item": "Malte Fischer/Martin Fritz: \"Japan und Schweiz: Gallische Dörfer gegen die Inflation\", online verfügbar unter: https://www.wiwo.de/my/politik/konjun.... ",
+          "publisher": "wiwo.de"
+        }
+      ]
+    },
+    {
+      "title": "Spezial #23: Geld und Steuern neu denken - Aaron Sahr über die monetäre Maschine",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=ORYcHThX8rI",
+      "pubDate": "2022-02-12T17:10:09Z",
+      "references": [
+        {
+          "author": "Aaron Sahr",
+          "title": "Die monetäre Maschine: Eine Kritik der finanziellen Vernunft",
+          "item": "Aaron Sahr: Die monetäre Maschine: Eine Kritik der finanziellen Vernunft, C. H. Beck.",
+          "publisher": "C.H. Beck"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 131: Schönes neues Metaverse?",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=XNweAo3GicY",
+      "pubDate": "2022-02-09T17:10:23Z",
+      "references": [
+        {
+          "author": "Matthew Ball",
+          "title": "The Metaverse: What It Is, Where to Find it, and Who Will Build It",
+          "href": "https://www.matthewball.vc/all/themetaverse",
+          "item": "Matthew Ball: „The Metaverse: What It Is, Where to Find it, and Who Will Build It“, online verfügbar unter: https://www.matthewball.vc/all/themetaverse.",
+          "publisher": "matthewball.vc"
+        },
+        {
+          "author": "Matthew Ball",
+          "title": "Payments, Payment Rails, and Blockchains, and the Metaverse",
+          "href": "https://www.matthewball.vc/all/metaversepayments",
+          "item": "Matthew Ball: „Payments, Payment Rails, and Blockchains, and the Metaverse“, online verfügbar unter: https://www.matthewball.vc/all/metaversepayments. ",
+          "publisher": "matthewball.vc"
+        },
+        {
+          "author": "Parag Khanna, Balaji S. Srinivasan",
+          "title": "Great Protocol Politics",
+          "href": "https://foreignpolicy.com/2021/12/11/bitcoin-ethereum-cryptocurrency-web3-great-protocol-politics/",
+          "item": "Parag Khanna, Balaji S. Srinivasan: Great Protocol Politics, online verfügbar unter: https://foreignpolicy.com/2021/12/11/bitcoin-ethereum-cryptocurrency-web3-great-protocol-politics/.",
+          "publisher": "foreignpolicy.com"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 130: Wie Aktienrückkäufe die Ungleichheit verschärfen",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=0LnVnhM9hXc",
+      "pubDate": "2022-02-02T08:42:44Z",
+      "references": [
+        {
+          "author": "William Lazonick, Mustafa Erdem Sakinç, Matt Hopkins",
+          "title": "Why Stock Buybacks Are Dangerous for the Economy",
+          "href": "https://hbr.org/2020/01/why-stock-buybacks-are-dangerous-for-the-economy",
+          "item": "William Lazonick, Mustafa Erdem Sakinç, Matt Hopkins: \"Why Stock Buybacks Are Dangerous for the Economy\", online verfügbar unter: https://hbr.org/2020/01/why-stock-buybacks-are-dangerous-for-the-economy.",
+          "publisher": "hbr.org"
+        },
+        {
+          "author": "Bernie Sanders, Chuck Schumer",
+          "title": "Limit Corporate Stock Buybacks",
+          "href": "https://www.nytimes.com/2019/02/03/opinion/chuck-schumer-bernie-sanders.html",
+          "item": "Bernie Sanders, Chuck Schumer: \"Limit Corporate Stock Buybacks\", online verfügbar unter: https://www.nytimes.com/2019/02/03/opinion/chuck-schumer-bernie-sanders.html.",
+          "publisher": "nytimes.com"
+        },
+        {
+          "author": "Ralf Schremper",
+          "title": "Aktienrückkauf und Kapitalmarkt. Eine theoretische und empirische Analyse deutscher Aktienrückkaufprogramme",
+          "href": "https://library.oapen.org/handle/20.500.12657/26799",
+          "item": "Ralf Schremper: Aktienrückkauf und Kapitalmarkt. Eine theoretische und empirische Analyse deutscher Aktienrückkaufprogramme, Peter Lang Verlag, online verfügbar unter: https://library.oapen.org/handle/20.500.12657/26799.",
+          "publisher": "Peter Lang Verlag"
+        }
+      ]
+    },
+    {
+      "title": "Literatur #13: Michel Houellebecq – Vernichten",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=Tksbk8JfK-0",
+      "pubDate": "2022-01-29T14:01:39Z",
+      "references": [
+        {
+          "author": "Michel Houellebecq",
+          "title": "Vernichten",
+          "item": "Michel Houellebecq: Vernichten, Dumont.",
+          "publisher": "Dumont"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 129: Mit Preiskontrollen gegen die Inflation?",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=XAO14MeVns0",
+      "pubDate": "2019-01-26T14:01:39Z",
+      "references": [
+        {
+          "author": "Blair Fix",
+          "title": "The Truth About Inflation",
+          "href": "https://economicsfromthetopdown.com/2021/11/24/the-truth-about-inflation/",
+          "item": "Blair Fix: “The Truth About Inflation”, online verfügbar unter: https://economicsfromthetopdown.com/2021/11/24/the-truth-about-inflation/.",
+          "publisher": "economicsfromthetopdown.com"
+        },
+        {
+          "author": "Isabella Weber",
+          "title": "Could strategic price controls help fight inflation",
+          "href": "https://www.theguardian.com/business/commentisfree/2021/dec/29/inflation-price-controls-time-we-use-it",
+          "item": "Isabella Weber: “Could strategic price controls help fight inflation?, in: The Guardian, online verfügbar unter: https://www.theguardian.com/business/commentisfree/2021/dec/29/inflation-price-controls-time-we-use-it. ",
+          "publisher": "theguardian.com"
+        },
+        {
+          "author": "Adam Tooze",
+          "title": ", online verfügbar unter: ",
+          "item": "Chartbook #65: Inflation & Price Controls",
+          "href": "https://adamtooze.substack.com/p/top-links-65-inflation-and-price",
+          "publisher": "adamtooze.substack.com"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 128: Chiemgauer und Bremer Roland - was sind Regionalwährungen?",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=mIUWMW4xUNU",
+      "pubDate": "2022-01-19T14:01:39Z",
+      "references": [
+        {
+          "author": "Margrit Kennedy, Bernard A. Lietaer",
+          "title": "Regionalwährungen. Neue Wege zu nachhaltigem Wohlstand",
+          "item": "Margrit Kennedy, Bernard A. Lietaer: Regionalwährungen. Neue Wege zu nachhaltigem Wohlstand, Riemann Verlag.",
+          "publisher": "Riemann Verlag"
+        },
+        {
+          "author": "Markus Seidel, Christine Koller",
+          "title": "Geld war gestern. Wie Bitcoin, Regionalgeld, Zeitbanken und Sharing Economy unser Leben verändern werden",
+          "item": "Markus Seidel, Christine Koller: Geld war gestern. Wie Bitcoin, Regionalgeld, Zeitbanken und Sharing Economy unser Leben verändern werden, FBV.",
+          "publisher": "FBV"
+        }
+      ]
+    },
+    {
+      "title": "Spezial #22: Wie die Westpresse den Osten eroberte - Mandy Tröger im Gespräch",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=IYKCHVwC5yg",
+      "pubDate": "2022-01-15T09:25:16Z",
+      "references": [
+        {
+          "author": "Mandy Tröger",
+          "title": "Pressefrühling und Profit. Wie westdeutsche Verlage 1989/1990 den Osten eroberten",
+          "item": "Mandy Tröger: Pressefrühling und Profit. Wie westdeutsche Verlage 1989/1990 den Osten eroberten, Herbert von Halem Verlag.",
+          "publisher": "Herbert von Halem Verlag"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 127: Hans-Werner Sinn und die Ketchup-Inflation",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=CrrTtSZHCzg",
+      "pubDate": "2022-01-12T08:42:34Z",
+      "references": [
+        {
+          "author": "Hans-Werner Sinn",
+          "title": "Die wundersame Geldvermehrung. Staatsverschuldung, Negativzinsen, Inflation",
+          "item": "Hans-Werner Sinn: Die wundersame Geldvermehrung. Staatsverschuldung, Negativzinsen, Inflation, Herder.",
+          "publisher": "Herder"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 126: Ist Bitcoin ein Ponzi Scheme?",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=mx7UjhivpmI",
+      "pubDate": "2022-01-05T17:10:09Z",
+      "references": [
+        {
+          "author": "Mervin K. Lewys",
+          "title": "Understanding Ponzi Schemes",
+          "item": "Mervin K. Lewys: Understanding Ponzi Schemes, Edward Elgar Pub.",
+          "publisher": "Edward Elgar Pub"
+        },
+        {
+          "author": "Kaushik Basu",
+          "title": "Ponzis: The Science and Mystique of a Class of Financial Frauds",
+          "href": "https://openknowledge.worldbank.org/handle/10986/19358",
+          "item": "Kaushik Basu: Ponzis : The Science and Mystique of a Class of Financial Frauds, online verfügbar unter: https://openknowledge.worldbank.org/handle/10986/19358.",
+          "publisher": "openknowledge.worldbank.org"
+        },
+        {
+          "author": "Florian M. Kern",
+          "title": "Bitcoinhandel ist nichts für Sparkassen",
+          "href": "https://www.dezernatzukunft.org/bitcoinhandel-ist-nichts-fuer-sparkassen/",
+          "item": "Florian M. Kern: \"Bitcoinhandel ist nichts für Sparkassen\", online verfügbar unter: https://www.dezernatzukunft.org/bitcoinhandel-ist-nichts-fuer-sparkassen/. ",
+          "publisher": "dezernatzukunft.org"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 125: Erdoğan und die Lira-Krise",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=6x2n27AcOJE",
+      "pubDate": "2021-12-29T08:42:44Z",
+      "references": [
+        {
+          "author": "Ümit Akçay",
+          "title": "Die Krise der türkischen Wirtschaft und die Grenzen abhängiger Finanzialisierung",
+          "href": "https://www.prokla.de/index.php/PROKLA/article/view/1149",
+          "item": "Ümit Akçay: \"Die Krise der türkischen Wirtschaft und die Grenzen abhängiger Finanzialisierung\", in: PROKLA, online verfügbar unter: https://www.prokla.de/index.php/PROKLA/article/view/1149.",
+          "publisher": "prokla.de"
+        },
+        {
+          "author": "Axel Gehring",
+          "title": "Das türkische Dilemma",
+          "href": "https://www.rosalux.de/news/id/45468",
+          "item": "Axel Gehring: \"Das türkische Dilemma\", online verfügbar unter: https://www.rosalux.de/news/id/45468.",
+          "publisher": "rosalux.de"
+        }
+      ]
+    },
+    {
+      "title": "Literatur #12: Charles Dickens - Der Weihnachtsabend (A Christmas Carol)",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=Y68mhu0HrmQ",
+      "pubDate": "2021-12-25T14:01:39Z",
+      "references": [
+        {
+          "author": "Charles Dickens",
+          "title": "Der Weihnachtsabend. Neu übersetzt von Eike Schönfeld",
+          "item": "Charles Dickens: Der Weihnachtsabend. Neu übersetzt von Eike Schönfeld, Insel Verlag.",
+          "publisher": "Insel Verlag"
+        },
+        {
+          "author": "Karl Marx",
+          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "item": "Karl Marx: Das Kapital. Kritik der politischen Ökonomie. Band 1, Karl Dietz Verlag Berlin.",
+          "publisher": "Karl Dietz Verlag Berlin"
+        },
+        {
+          "author": "Jacques Le Goff",
+          "title": "Geld im Mittelalter",
+          "item": "Jacques Le Goff: Geld im Mittelalter, Klett-Cotta.",
+          "publisher": "Klett-Cotta"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 124: Wieso die Zinskritik nichts taugt",
+      "description": "",
+      "href": "https://www.youtube.com/watch?v=g2rUt81YF9k",
+      "pubDate": "2021-12-22T09:25:16Z",
+      "references": [
+        {
+          "author": "Helmut Creutz",
+          "title": "Das Geld Syndrom 2012: Wege zu einer krisenfreieren Wirtschaftsordnung",
+          "item": "Helmut Creutz: Das Geld Syndrom 2012: Wege zu einer krisenfreieren Wirtschaftsordnung, G. Mainz Verlag.",
+          "publisher": "G. Mainz Verlag"
+        },
+        {
+          "author": "Stephan Kaufmann, Antonella Muzzupappa",
+          "title": "Crash Kurs Krise. Wie die Finanzmärkte funktionieren. Eine kritische Einführung",
+          "item": "Stephan Kaufmann, Antonella Muzzupappa: Crash Kurs Krise. Wie die Finanzmärkte funktionieren. Eine kritische Einführung, Bertz+Fischer.",
+          "publisher": "Bertz + Fischer"
+        },
+        {
+          "author": "Margrit Kennedy",
+          "title": "Occupy Money. Damit wir zukünftig ALLE die Gewinner sind",
+          "item": "Margrit Kennedy: Occupy Money. Damit wir zukünftig ALLE die Gewinner sind, Kamphausen Verlag.",
+          "publisher": "Kamphausen Verlag"
+        }
+      ]
+    },
+    {
       "title": "Die KfW vom Wiederaufbau bis zur Energiewende - WOHLSTAND FÜR ALLE Ep. 123",
       "pubDate": "2021-12-15T04:30:00Z",
       "href": "https://www.youtube.com/watch?v=k5z26nRfqd4",
