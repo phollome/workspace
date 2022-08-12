@@ -8,7 +8,6 @@ import { MergedReference, mergeReferences } from "./utils";
 interface Reference {
   author: string;
   title: string;
-  item: string;
   publisher: string;
 }
 
@@ -16,7 +15,6 @@ interface Episode {
   title: string;
   pubDate: string;
   href: string;
-  description: string;
   references: Reference[];
 }
 

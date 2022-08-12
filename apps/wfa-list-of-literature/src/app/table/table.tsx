@@ -1,6 +1,5 @@
-import React from "react";
 import Fuse from "fuse.js";
-import { EnhancedReference } from "../app";
+import React from "react";
 import { MergedReference } from "../utils";
 
 enum Sorting {
