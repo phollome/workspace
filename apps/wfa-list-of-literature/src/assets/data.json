@@ -3,6 +3,25 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 165: Ist Papst Franziskus ein Antikapitalist?",
+      "href": "https://www.youtube.com/watch?v=9Ba7hL66zzg",
+      "pubDate": "2022-10-05T17:10:09Z",
+      "references": [
+        {
+          "author": "Papst Franziskus",
+          "title": " Evangelii Gaudium",
+          "href": "https://www.vatican.va/content/francesco/de/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+          "publisher": "vatican.va"
+        },
+        {
+          "author": "Papst Franziskus",
+          "title": " Laudato si. Über die Sorge für das gemeinsame Haus",
+          "href": "https://www.vatican.va/content/francesco/de/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+          "publisher": "vatican.va"
+        }
+      ]
+    },
+    {
       "title": "Ep. 164: Marx und Engels gegen Malthus",
       "href": "https://www.youtube.com/watch?v=QhSYSJdG2ws",
       "pubDate": "2022-09-28T17:10:09Z",
