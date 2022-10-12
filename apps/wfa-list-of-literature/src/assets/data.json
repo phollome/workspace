@@ -3,19 +3,36 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 166: Auschwitz und die IG Farben",
+      "href": "https://www.youtube.com/watch?v=O5MSr-PYMRY",
+      "pubDate": "2022-10-12T17:10:09Z",
+      "references": [
+        {
+          "author": "Wolfgang Sofsky",
+          "title": "Die Ordnung des Terrors. Das Konzentrationslager",
+          "publisher": "S. Fischer"
+        },
+        {
+          "author": "Bernd C. Wagner",
+          "title": "IG Auschwitz. Zwangsarbeit und Vernichtung von Häftlingen des Lagers Monowitz 1941-1945",
+          "publisher": "K. G. Saur Verlag"
+        }
+      ]
+    },
+    {
       "title": "Ep. 165: Ist Papst Franziskus ein Antikapitalist?",
       "href": "https://www.youtube.com/watch?v=9Ba7hL66zzg",
       "pubDate": "2022-10-05T17:10:09Z",
       "references": [
         {
           "author": "Papst Franziskus",
-          "title": " Evangelii Gaudium",
+          "title": "Evangelii Gaudium",
           "href": "https://www.vatican.va/content/francesco/de/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
           "publisher": "vatican.va"
         },
         {
           "author": "Papst Franziskus",
-          "title": " Laudato si. Über die Sorge für das gemeinsame Haus",
+          "title": "Laudato si. Über die Sorge für das gemeinsame Haus",
           "href": "https://www.vatican.va/content/francesco/de/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
           "publisher": "vatican.va"
         }
@@ -28,7 +45,7 @@
       "references": [
         {
           "author": "Ronald L. Meek",
-          "title": " Marx and Engels on Malthus",
+          "title": "Marx and Engels on Malthus",
           "publisher": "Laerence and Wishart"
         }
       ]
@@ -40,7 +57,7 @@
       "references": [
         {
           "author": "Thomas Mann",
-          "title": " Königliche Hoheit",
+          "title": "Königliche Hoheit",
           "publisher": "S. Fischer"
         }
       ]
@@ -58,7 +75,7 @@
         },
         {
           "author": "Pier Paolo Pasolini",
-          "title": " Freibeuterschriften. Die Zerstörung der Kultur des Einzelnen durch die Konsumgesellschaft",
+          "title": "Freibeuterschriften. Die Zerstörung der Kultur des Einzelnen durch die Konsumgesellschaft",
           "publisher": "Verlag Klaus Wagenbach"
         }
       ]
@@ -219,7 +236,7 @@
       ]
     },
     {
-      "title": "Literatur #19: \"Reich wie Rothschild\" - Dostojewskijs Jüngling",
+      "title": "Literatur #19: \"Reich wie Rothschild\"- Dostojewskijs Jüngling",
       "href": "https://www.youtube.com/watch?v=SYn9c3vA5vE",
       "pubDate": "2022-07-30T17:10:09Z",
       "references": [
@@ -1931,7 +1948,7 @@
       "references": [
         {
           "author": "Frank Thelen",
-          "title": " 10xDNA: Das Mindset der Zukunft",
+          "title": "10xDNA: Das Mindset der Zukunft",
           "publisher": "Frank Thelen Media"
         },
         {
@@ -2523,7 +2540,7 @@
       "references": [
         {
           "author": "Johannes Priesemann / Alfred Eibl",
-          "title": " \"Das Geld gehört uns allen! Statt PayPal, »Libra«, AliPay: Alternativen zur digitalen Überwachung und Kontrolle\"",
+          "title": "Das Geld gehört uns allen! Statt PayPal, »Libra«, AliPay: Alternativen zur digitalen Überwachung und Kontrolle",
           "publisher": "VSA Verlag"
         },
         {
@@ -2871,7 +2888,7 @@
         },
         {
           "author": "Alexander Gauland:",
-          "title": " Der Furor der Reformen",
+          "title": "Der Furor der Reformen",
           "href": "https://taz.de/!687225/",
           "publisher": "taz.de"
         },
@@ -2934,7 +2951,7 @@
       "references": [
         {
           "author": "Autor_innenkollektiv",
-          "title": " Mythen über Marx: Die populärsten Kritiken, Fehlurteile und Missverständnisse",
+          "title": "Mythen über Marx: Die populärsten Kritiken, Fehlurteile und Missverständnisse",
           "publisher": "Bertz + Fischer"
         },
         {
