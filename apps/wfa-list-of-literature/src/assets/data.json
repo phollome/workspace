@@ -3,6 +3,99 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 174: Die US-Wahl 1896 und der Goldstandard",
+      "href": "https://www.youtube.com/watch?v=R6BiCj6ThqU",
+      "pubDate": "2022-12-07T17:10:09Z",
+      "references": [
+        {
+          "author": "Milton Friedman",
+          "title": "Bimetallism Revisited",
+          "href": "https://www.jstor.org/stable/1942723",
+          "publisher": "jstor.org"
+        },
+        {
+          "author": "Jonathan Levy",
+          "title": "Ages of American Capitalism. A History of the United States",
+          "publisher": "Random House"
+        },
+        {
+          "author": "Kathryn Morse",
+          "title": "The Nature of Gold. An Environmental History of the Klondike Gold Rush",
+          "publisher": "University of Washington Press"
+        },
+        {
+          "author": "Robert J. Shiller",
+          "title": "Narrative Wirtschaft. Wie Geschichten die Wirtschaft beeinflussen - ein revolutionärer Erklärungsansatz",
+          "publisher": "Plassen"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 173: Schafft sich der Kapitalismus selbst ab?",
+      "href": "https://www.youtube.com/watch?v=nvkmhq78Pl8",
+      "pubDate": "2022-11-30T17:10:09Z",
+      "references": [
+        {
+          "author": "Wolfgang Fritz Haug (Hrsg.)",
+          "title": "Historisch-kritisches Wörterbuch des Marxismus, Band 5, \"Gegenöffentlichkeit bis Hegemonialapparate\"",
+          "publisher": "Argument Verlag"
+        },
+        {
+          "author": "Christian Lotz, Karl Marx",
+          "title": "Das Maschinen-Fragment",
+          "publisher": "Laika"
+        }
+      ]
+    },
+    {
+      "title": "Literatur #23: Brigitte Reimann - Franziska Linkerhand",
+      "href": "https://www.youtube.com/watch?v=rtEEXUXEL1E",
+      "pubDate": "2022-11-26T17:10:09Z",
+      "references": [
+        {
+          "author": "Brigitte Reimann",
+          "title": "Franziska Linkerhand",
+          "publisher": "Aufbau Verlag"
+        },
+        {
+          "author": "Ole Nymoen",
+          "title": "Halbes Hoyerswerda",
+          "href": "https://www.freitag.de/autoren/der-freitag/halbes-hoyerswerda",
+          "publisher": "freitag.de"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 172: Schützt Gold vor der Inflation?",
+      "href": "https://www.youtube.com/watch?v=--j-ZLnoOJU",
+      "pubDate": "2022-11-23T17:10:09Z",
+      "references": [
+        {
+          "author": "Karl Marx",
+          "title": "Zur Kritik der politischen Ökonomie",
+          "href": "http://www.mlwerke.de/me/me13/me13_049.htm#Kap_2_4",
+          "publisher": "mlwerke.de"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 171: Ist die Maschine unser Feind?",
+      "href": "https://www.youtube.com/watch?v=CN6IjXhjTls",
+      "pubDate": "2022-11-16T17:10:09Z",
+      "references": [
+        {
+          "author": "Christian Lotz, Karl Marx",
+          "title": "Das Maschinen-Fragment",
+          "publisher": "Laika"
+        },
+        {
+          "author": "Karl Marx",
+          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "publisher": "Karl Dietz Verlag Berlin"
+        }
+      ]
+    },
+    {
       "title": "Ep. 169: Marx und die Maschinen",
       "href": "https://www.youtube.com/watch?v=-Pf2c5iAWG0",
       "pubDate": "2022-11-02T17:10:09Z",
