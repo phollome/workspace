@@ -3,6 +3,67 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Spezial #30: Isabella Weber über Inflation und Gaspreisbremse",
+      "href": "https://www.youtube.com/watch?v=i_iXAGa3vsk",
+      "pubDate": "2022-12-17T17:10:09Z",
+      "references": [
+        {
+          "author": "Isabella Weber et.al.",
+          "title": "Inflation in Times of Overlapping Emergencies: Systemically Significant Prices from an Input-output Perspective",
+          "href": "https://scholarworks.umass.edu/econ_workingpaper/340/",
+          "publisher": "scholarworks.umass.edu"
+        },
+        {
+          "author": "Isabella Weber",
+          "title": "Das Gespenst der Inflation: Wie China der Schocktherapie entkam",
+          "publisher": "Suhrkamp"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 175: Droht ein kalter Wirtschaftskrieg?",
+      "href": "https://www.youtube.com/watch?v=Xy68vp-j0Pc",
+      "pubDate": "2022-12-14T17:10:09Z",
+      "references": [
+        {
+          "author": "Don Farrell",
+          "title": "Was für ein Handelsabkommen mit Australien spricht",
+          "href": "https://www.wiwo.de/politik/deutschland/energiewende-was-fuer-ein-handelsabkommen-mit-australien-spricht/28855168.html",
+          "publisher": "wiwo.de"
+        },
+        {
+          "author": "Martin Kölling",
+          "title": "Chipriese TSMC investiert Milliarden in neue US-Werke",
+          "href": "https://www.handelsblatt.com/technik/it-internet/halbleiterindustrie-tsmc-erhoeht-investitionen-40-milliarden-fuer-us-chips/28853030.html",
+          "publisher": "handelsblatt.com"
+        },
+        {
+          "author": "Jörg Kronauer",
+          "title": "Kurswechsel in Neu-Delhi",
+          "href": "https://www.jungewelt.de/artikel/440256.asiatisches-jahrhundert-kurswechsel-in-neu-delhi.html",
+          "publisher": "jungewelt.de"
+        },
+        {
+          "author": "Gideon Rachman",
+          "title": "Der Beginn des asiatischen Zeitalters",
+          "href": "https://internationalepolitik.de/system/files/article_pdfs/ip_02-2018_rachman_08-13_o.pdf",
+          "publisher": "internationalepolitik.de"
+        },
+        {
+          "author": "Nele Husmann",
+          "title": "Interview mit Nouriel Roubini: China wird Sibirien annektieren. Deshalb ist Putin ein Idiot",
+          "href": "https://www.wiwo.de/my/politik/konjunktur/nouriel-roubini-china-wird-sibirien-annektieren-deshalb-ist-putin-ein-idiot/28841976.html?ticket=ST-7403-RXJa24vze6UBfOfhZMQn-cas01.example.org",
+          "publisher": "wiwo.de"
+        },
+        {
+          "author": "Adam Tooze",
+          "title": "American hubris",
+          "href": "https://www.newstatesman.com/ideas/2022/12/addicted-greatness-donald-trump-america-new-labour",
+          "publisher": "newstatesman.com"
+        }
+      ]
+    },
+    {
       "title": "Ep. 174: Die US-Wahl 1896 und der Goldstandard",
       "href": "https://www.youtube.com/watch?v=R6BiCj6ThqU",
       "pubDate": "2022-12-07T17:10:09Z",
