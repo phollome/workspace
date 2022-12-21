@@ -3,6 +3,30 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 176: Klondike - der größte Goldrausch aller Zeiten",
+      "href": "https://www.youtube.com/watch?v=wR1uaMXxfEw",
+      "pubDate": "2022-12-21T17:10:09Z",
+      "references": [
+        {
+          "author": "Douglas W. Allen",
+          "title": "Information Sharing during the Klondike Gold Rush",
+          "href": "https://www.jstor.org/stable/40056405",
+          "publisher": "jstor.org"
+        },
+        {
+          "author": "Jack London",
+          "title": "The Economics of the Klondike",
+          "href": "https://thegrandarchive.wordpress.com/the-economics-of-the-klondike/",
+          "publisher": "thegrandarchive.wordpress.com"
+        },
+        {
+          "author": "Kathryn Morse",
+          "title": "The Nature of Gold. An Environmental History of the Klondike Gold Rush",
+          "publisher": "University of Washington Press"
+        }
+      ]
+    },
+    {
       "title": "Spezial #30: Isabella Weber über Inflation und Gaspreisbremse",
       "href": "https://www.youtube.com/watch?v=i_iXAGa3vsk",
       "pubDate": "2022-12-17T17:10:09Z",
