@@ -3,6 +3,98 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 180: Sind Pflegekräfte produktiv?",
+      "href": "https://www.youtube.com/watch?v=1IZIVRzi7YQ",
+      "pubDate": "2023-01-18T17:10:09Z",
+      "references": [
+        {
+          "author": "Ludwig Theodor Heuss",
+          "title": "\"Aufruf zum Liberalismus 2.0\", Interview mit Maja Göpel",
+          "href": "https://liberal-magazin.de/2022/01-2022/liberalismus-2-0",
+          "publisher": "liberal-magazin.de"
+        },
+        {
+          "author": "Naomi Klein",
+          "title": "Die Entscheidung: Kapitalismus vs. Klima",
+          "publisher": "S. Fischer"
+        },
+        {
+          "author": "Karl Marx",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
+          "publisher": "Karl Dietz Verlag Berlin"
+        },
+        {
+          "author": "Karl Marx",
+          "title": "Produktivität des Kapitals. Produktive und unproduktive Arbei",
+          "href": "https://marxwirklichstudieren.files.wordpress.com/2012/11/mew_band26-1.pdf",
+          "publisher": "marx-wirklich-studieren.net"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 179: Ulrike Herrmann und die Kriegswirtschaft",
+      "href": "https://www.youtube.com/watch?v=Q4OENkaNipw",
+      "pubDate": "2023-01-11T17:10:09Z",
+      "references": [
+        {
+          "author": "Ulrike Herrmann",
+          "title": "Das Ende des Kapitalismus. Warum Wachstum und Klimaschutz nicht vereinbar sind - und wie wir in Zukunft leben werden",
+          "publisher": "Kiepenheuer & Witsch"
+        },
+        {
+          "author": "Naomi Klein",
+          "title": "Die Entscheidung: Kapitalismus vs. Klima",
+          "publisher": "S. Fischer"
+        },
+        {
+          "author": "Bill McKibben",
+          "title": "We Need to Literally Declare War on Climate Change",
+          "href": "https://newrepublic.com/article/135684/declare-war-climate-change-mobilize-wwii?fbclid=IwAR2Og6y9I0uY9Zy3mv85IDD_oeGV5ckXwlVuCx_wBjB84yPVKHgAypU8Zbo",
+          "publisher": "newrepublic.com"
+        },
+        {
+          "author": "George Monbiot",
+          "title": "Think big on climate: the transformation of society in months has been done before",
+          "href": "https://www.theguardian.com/commentisfree/2021/oct/20/us-war-footing-1941-climate-emergency-earth-pearl-harbor?fbclid=IwAR09HLuH38KYynvuTUvxAtfGdmevySupuawC7JDb0NGyyJ6KOspbxegCRNQ",
+          "publisher": "theguardian.com"
+        },
+        {
+          "author": "Ina Zweiniger-Bargielowska",
+          "title": "Austerity in Britain: Rationing, Controls, and Consumption, 1939-1955",
+          "publisher": "Oxford University Press"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 177: Subventionen und die deutsche Industriepolitik",
+      "href": "https://www.youtube.com/watch?v=gjoDGJa990Y",
+      "pubDate": "2022-12-28T17:10:09Z",
+      "references": [
+        {
+          "author": "Ralf Ahrens",
+          "title": "Strukturpolitik und Subventionen. Debatten und industriepolitische Entscheidungen in der Bonner Republik",
+          "publisher": "Wallstein"
+        },
+        {
+          "author": "Mariana Mazzucato",
+          "title": "\"Das Wachstum in eine grüne Richtung umlenken\", in: Michael Vassiliadis, Kajsa Borgnäs (Hrsg.): Nachhaltige Industriepolitik: Strategien für Deutschland und Europa",
+          "publisher": "Campus"
+        }
+      ]
+    },
+    {
+      "title": "Literatur #24: Wir hassen DER KLEINE LORD!",
+      "href": "https://www.youtube.com/watch?v=c30FFszzqjg",
+      "pubDate": "2022-12-24T17:10:09Z",
+      "references": [
+        {
+          "author": "Frances Hodgson Burnett",
+          "title": "Der kleine Lord",
+          "publisher": "Reclam"
+        }
+      ]
+    },
+    {
       "title": "Ep. 176: Klondike - der größte Goldrausch aller Zeiten",
       "href": "https://www.youtube.com/watch?v=wR1uaMXxfEw",
       "pubDate": "2022-12-21T17:10:09Z",
@@ -175,7 +267,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
@@ -187,7 +279,7 @@
       "references": [
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
@@ -204,7 +296,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
@@ -221,7 +313,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
@@ -1274,7 +1366,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         },
         {
@@ -1779,7 +1871,7 @@
       "references": [
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         },
         {
@@ -1839,7 +1931,7 @@
       "references": [
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         },
         {
@@ -2043,7 +2135,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         },
         {
@@ -2587,7 +2679,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
@@ -2869,7 +2961,7 @@
       "references": [
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
@@ -2977,7 +3069,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         },
         {
@@ -3236,7 +3328,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         },
         {
@@ -3802,7 +3894,7 @@
         },
         {
           "author": "Karl Marx",
-          "title": "Das Kapital. Kritik der politischen Ökonomie.",
+          "title": "Das Kapital. Kritik der politischen Ökonomie",
           "publisher": "Karl Dietz Verlag Berlin"
         }
       ]
