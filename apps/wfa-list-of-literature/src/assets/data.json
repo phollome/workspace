@@ -3,6 +3,43 @@
   "link": "https://www.youtube.com/c/Wohlstandf%C3%BCrAlle/featured",
   "episodes": [
     {
+      "title": "Ep. 182: Der Gender Pay Gap - wieso Frauen weniger verdienen",
+      "href": "https://www.youtube.com/watch?v=QofUjWINKqQ",
+      "pubDate": "2023-02-02T17:10:09Z",
+      "references": [
+        {
+          "author": "Lena Hipp, Nadiya Kelle",
+          "title": "Nur Luft und Liebe? Die Entlohnung sozialer Dienstleistungsarbeit im Länder- und Berufsvergleich",
+          "href": "https://www.fes.de/nur-luft-und-liebe",
+          "publisher": "fes.de"
+        }
+      ]
+    },
+    {
+      "title": "Ep. 181: Wie das BIP zur mächtigsten Zahl der Welt wurde",
+      "href": "https://www.youtube.com/watch?v=aqZ8bgY1lGM",
+      "pubDate": "2023-01-25T17:10:09Z",
+      "references": [
+        {
+          "author": "Mathias Brüggmann",
+          "title": "Der Zusammenbruch von Russlands Wirtschaft droht",
+          "href": "https://www.handelsblatt.com/politik/international/ukraine-krieg-der-zusammenbruch-von-russlands-wirtschaft-droht-/28919870.html?nlayer=Newsticker_1985586",
+          "publisher": "handelsblatt.com"
+        },
+        {
+          "author": "Stephan Kaufmann",
+          "title": "Was wächst denn da?",
+          "href": "https://www.fr.de/meinung/waechst-denn-10995929.html",
+          "publisher": "fr.de"
+        },
+        {
+          "author": "Philipp Lepenies",
+          "title": "Die Macht der einen Zahl. Eine politische Geschichte des Bruttoinlandsprodukts",
+          "publisher": "Suhrkamp"
+        }
+      ]
+    },
+    {
       "title": "Ep. 180: Sind Pflegekräfte produktiv?",
       "href": "https://www.youtube.com/watch?v=1IZIVRzi7YQ",
       "pubDate": "2023-01-18T17:10:09Z",
@@ -2346,7 +2383,7 @@
         {
           "author": "Herman Meville",
           "title": "Bartleby, der Schreiber. Eine Geschichte aus der Wall-Street",
-          "publisher": "Insel"
+          "publisher": "Insel Verlag"
         },
         {
           "author": "Joris-Karl Huysmans",
